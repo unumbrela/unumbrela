@@ -22,7 +22,7 @@ Welcome to my GitHub profile! I'm passionate about **Artificial Intelligence**, 
 
 I'm passionate about improving my algorithm skills! Here are my LeetCode stats:
 
-👉 [leetcode](https://leetcide.cn/u/unumbrela/)
+👉 [leetcode](https://leetcode.cn/u/unumbrela/)
 
 ---
 

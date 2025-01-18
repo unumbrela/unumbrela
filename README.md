@@ -1,84 +1,51 @@
-### Hello, I` am ZihaoGuo! 👋
+# Hello, I'm [unumbrela](https://github.com/unumbrela) 👋
 
-<code><img height="26" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-<code><img height="26" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>
-<code><img height="26" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"></code>
-<code><img height="26" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"></code>
-<code><img height="26" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"></code>
+Welcome to my GitHub profile! 🌟 I'm a passionate developer with a focus on **embedded systems**, **PCB design**, and **software development**. I enjoy exploring new technologies and contributing to open-source projects. Feel free to check out my repositories, star your favorite ones, and contribute if you feel like it!
 
+---
 
-![](https://stats.justsong.cn/api/leetcode?username=unumbrela&cn=true)
+## 🛠️ Technologies & Tools
 
-[![visitor](https://visitor-badge.glitch.me/badge?page_id=unumbrela.unumbrela)](https://github.com/unumbrela)
-[![sssgoEasy](https://img.shields.io/badge/juejin-sssgoEasy-blue)](https://juejin.cn/user/1204720476890477)
-[![博客](([https://blog.csdn.net/yiyeyeshenlan?type=blog](https://blog.csdn.net/yiyeyeshenlan?type=blog)))]
+- **Programming Languages**: Python, C++, C, JavaScript, Bash
+- **Embedded Systems**: ARM, ESP32, Raspberry Pi
+- **PCB Design**: KiCad, Altium Designer
+- **Software Development**: ROS, Docker, Linux (Ubuntu)
+- **Data Science**: Pandas, Numpy, Matplotlib, Scikit-learn
 
-<!-- :sunny: I'm currently learning and working on... -->
+---
 
-<!-- :fire: To live alone is the fate of all great souls
+## 🔥 What I'm Currently Working On
 
-:raised_hand: 掘金：[https://juejin.cn/user/1204720476890477](https://juejin.cn/user/1204720476890477)
+- 🔧 Working on PCB designs for various embedded systems projects.
+- 📚 Exploring deep learning for image analysis and recognition.
+- 🧑‍💻 Learning more about ROS (Robot Operating System) and how to configure it efficiently.
 
-:sparkles: 博客：[https://ssscode.com/](https://ssscode.com/) -->
+---
 
-<!-- **Languages and Tools:**   -->
+## 📈 GitHub Stats
 
-<!-- <img height="120" src="https://cdn.jsdelivr.net/gh/unumbrela/images/vuepress/4.png" /> -->
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=unumbrela&show_icons=true&hide_title=true&hide_border=true&count_private=true&hide=prs)
 
-<!-- [![sss's github stats](https://github-readme-stats.vercel.app/api?username=unumbrela&show_icons=true&theme=synthwave&layout=compact)](https://github.com/anuraghazra/github-readme-stats) -->
+---
 
-<table width="800px">
-<tr>
-<td valign="top" width="50%">
+## 🌱 My Open-Source Contributions
 
+I'm always looking for ways to improve my skills and help others. Here are some of the repositories I've contributed to or created:
 
-#### 🏊‍♂️ <a href="https://gist.github.com/unumbrela/b4b79e0deb0164edaae772ecbc5bd8bc" target="_blank">Weekly Development Breakdown</a>
+- **[Project 1 Name](#)** - A cool project I'm working on.
+- **[Project 2 Name](#)** - Another cool project.
+- **[Project 3 Name](#)** - Something even more exciting.
 
-<!-- code_time starts -->
+---
 
-```text
-TypeScript 23 hrs 55 mins ██████████████████▎░░  87.2%
-JSON       1 hr 59 mins   █▌░░░░░░░░░░░░░░░░░░░   7.3%
-Markdown   1 hr 23 mins   █░░░░░░░░░░░░░░░░░░░░   5.1%
-Python     2 mins         ░░░░░░░░░░░░░░░░░░░░░   0.2%
-JavaScript 2 mins         ░░░░░░░░░░░░░░░░░░░░░   0.1%
-```
+## 📬 Let's Connect
 
-<!-- code_time ends -->
-</td>
+- LinkedIn: [Your LinkedIn Profile](#)
+- Twitter: [@YourTwitterHandle](#)
+- Personal Website: [YourWebsite.com](#)
 
-<td valign="top" width="50%">
+---
 
-#### 🤹‍♀️ <a href="https://ssscode.com/" target="_blank">Recent Blog</a>
+## 🙏 Support
 
-<!-- blog starts -->
-
-* <a href='https://unumbrela.github.io/blog/pages/e4bf0d/' target='_blank' title='说说call、apply、bind是如何改变this的'>说说call、apply、bind是...</a> - 2024-03-29
-* <a href='https://unumbrela.github.io/blog/pages/d865ca/' target='_blank' title='从输入 URL 到页面加载完成发生了什么？'>从输入 URL 到页面加载完成发生了...</a> - 2024-03-29
-* <a href='https://unumbrela.github.io/blog/pages/8d9372/' target='_blank' title='JavaScript进阶—— new 的执行过程'>JavaScript进阶—— new...</a> - 2024-03-26
-* <a href='https://unumbrela.github.io/blog/pages/131b3a/' target='_blank' title='JavaScript进阶——map与reduce的前世今生😋'>JavaScript进阶——map与...</a> - 2024-03-24
-* <a href='https://unumbrela.github.io/blog/pages/17a56a/' target='_blank' title='作用域与闭包'>作用域与闭包</a> - 2024-03-21
-  <!-- blog ends -->
-
-</td>
-</tr>
-
-</table>
-
-<p>
-  <img
-  width="334"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=unumbrela&hide=handlebars&langs_count=8&layout=compact&exclude_repo=blog,vuepress-theme-vdoing,hexo,hexo-theme-next,images,jack&bg_color=30,e96443,904e95&title_color=fff&text_color=fff"
-  />
-  <img
-  width="507"
-  src="https://github-readme-stats.vercel.app/api?username=unumbrela&show_icons=true&&theme=radical&layout=compact"
-  />
-</p>
-
-
-<!-- [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats) -->
-
-<!-- ![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=unumbrela&hide=handlebars&langs_count=8&layout=compact&exclude_repo=vuepress,vuepress-blog-io,vuepress-theme-vdoing,hexo,hexo-theme-next,images) -->
-
-![github contribution grid snake animation](https://github.com/unumbrela/unumbrela/blob/output/github-contribution-grid-snake.svg)
+If you find my projects helpful, feel free to give them a star! ⭐

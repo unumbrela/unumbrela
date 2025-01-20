@@ -10,7 +10,7 @@ Welcome to my GitHub profile! I'm passionate about **Artificial Intelligence**, 
 - 🧑‍💻 **Algorithm Challenges**: Solving problems on platforms like LeetCode to sharpen my coding skills.
 - 🚀 **Spring Boot Development**: Building web applications with Spring Boot, focusing on back-end architecture and API development.
 
----
+--- 
 
 ## 📈 GitHub Stats
 

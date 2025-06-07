@@ -24,48 +24,17 @@
 
 ---
 
-### 🏆 LeetCode 统计 (LeetCode Stats)
-
-<p align="center">
-  <a href="https://leetcode.cn/u/unumbrela/">
-    <img src="https://leetcode-stats.vercel.app/api/cn?username=unumbrela&theme=Dark" alt="unumbrela's LeetCode Stats" />
-  </a>
-</p>
-
----
 
 ### 📫 如何联系我 (Connect with Me)
 
 <p align="center">
   <a href="mailto:zihao3351@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://blog.csdn.net/yiyeyeshenlan"><img src="https://img.shields.io/badge/CSDN-博客-C32136?style=for-the-badge&logo=C&logoColor=white" alt="CSDN Blog"></a>
-  <a href="#"><img src="https://img.shields.io/badge/WeChat-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat"></a>
 </p>
 
 ---
 
 ### 📈 访客统计 (Visitor Count)
-
-<p align="center">
-  <img src="https://profile-counter.glitch.me/YOUR_USERNAME/count.svg" alt="Visitor Count" />
-</p>
-
-
-### ✨ 其他有趣组件 (Fun Stuffs)
-
-<table align="center">
-  <tr>
-    <td valign="top">
-      <img src="https://github-readme-stats.vercel.app/api/wakatime?username=YOUR_USERNAME&theme=radical&layout=compact" alt="WakaTime Stats" />
-    </td>
-    <td valign="top">
-      <a href="https://readme-jokes.vercel.app">
-        <img src="https://readme-jokes.vercel.app/api?theme=radical" alt="Jokes Card" />
-      </a>
-    </td>
-  </tr>
-</table>
-
 
 <p align="center">
   <img src="https://profile-counter.glitch.me/YOUR_USERNAME/count.svg" alt="Visitor Count" />

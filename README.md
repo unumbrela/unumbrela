@@ -7,11 +7,9 @@
 </p>
 
 <p align="center">
-  🚀 我是一名热衷于 [你的领域，例如：前端开发 / 数据科学 / 人工智能] 的开发者。
+  🚀 我是一名热衷于人工智能的开发者。
   <br>
-  💡 目前正在探索 [你正在学习或感兴趣的技术]。
-  <br>
-  🤝 乐于合作，欢迎联系我！
+  💡 目前正在探索 1.AI生成图像的鉴别和定位； 2.生信领域蛋白质（多肽）结构的预测。
 </p>
 
 ---
@@ -32,7 +30,7 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,html,css,react,vue,nodejs,python,java,mysql,mongodb,git,docker" />
+    <img src="https://skillicons.dev/icons?i=pytorch,python,java,opencv,opengl" />
   </a>
 </p>
 
@@ -41,7 +39,7 @@
 ### 📫 如何联系我 (Connect with Me)
 
 <p align="center">
-  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="mailto:zihao3351@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="#"><img src="https://img.shields.io/badge/WeChat-07C160?style=for-the-badge&logo=wechat&logoColor=white" alt="WeChat"></a>
   <a href="#"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="#"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"></a>

@@ -21,7 +21,6 @@ I'm an undergraduate researcher at **Jiangnan University**, School of AI & Compu
 
 - Published / submitted **4 papers** as first or co-first author (1 CCF-B, 3 CCF-C)
 - **iGEM 2025 Gold Medalist** — presented in Paris as dry-lab lead
-- Jiangnan University **Zhishan Honors** student & CPC Probationary Member
 
 ## Research Interests
 
@@ -37,7 +36,7 @@ LLM Reasoning & Evaluation  ·  AI for Science (Protein Design / Genomics)
 | 1 | **MambaGuard**: A CLIP-Mamba Approach for OOD Generated Image Detection | PRCV 2026 (CCF-C) | Co-first Author | Accepted |
 | 2 | **SHINE**: A Neuro-Symbolic Approach to Language-Driven Travel Planning | ICAPS 2026 (CCF-B) | First Author | Under Review |
 | 3 | MLLM-based Image Forgery Detection and Localization | ICIC 2026 (CCF-C) | First Author | Under Review |
-| 4 | LLM Reasoning Evaluation | IJCNN 2026 (CCF-C) | First Author | Under Review |
+| 4 | Response-Pattern Enhanced Item Response Theory for Large Language Model Evaluation | IJCNN 2026 (CCF-C) | First Author | Under Review |
 
 ## Featured Projects
 
@@ -80,7 +79,7 @@ LoRA fine-tuning of Evo2-1B on BioNeMo Framework with Megatron-LM distributed pr
 ### SHINE System
 Neuro-Symbolic Travel Planning
 
-Hybrid LLM + symbolic reasoning architecture with constraint-aware DFS. Achieved **77.27%** pass rate on ChinaTravel benchmark (>100% improvement over baselines).
+Hybrid LLM + symbolic reasoning architecture with constraint-aware DFS. Achieved **77.27%** pass rate on ChinaTravel benchmark (SOTA).
 
 `LLM` `RAG` `Symbolic AI`
 
@@ -126,24 +125,6 @@ Hybrid LLM + symbolic reasoning architecture with constraint-aware DFS. Achieved
 
 </div>
 
-## GitHub Stats
-
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=unumbrela&show_icons=true&include_all_commits=true&theme=github_dark&hide_border=true&rank_icon=github" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs?username=unumbrela&layout=compact&langs_count=8&theme=github_dark&hide_border=true" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=unumbrela&theme=github-dark-blue&hide_border=true" />
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/unumbrela/unumbrela/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/unumbrela/unumbrela/output/github-contribution-grid-snake.svg" />
-    <img alt="github-snake" src="https://raw.githubusercontent.com/unumbrela/unumbrela/output/github-contribution-grid-snake.svg" />
-  </picture>
-</div>
 
 ---
 

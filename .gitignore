@@ -2,3 +2,8 @@ node_modules/
 .DS_Store
 *.log
 .env*
+
+# Personal résumé / CV files — contain private contact info, keep out of the repo
+郭子豪简历-*.docx
+郭子豪简历-*.md
+*.docx

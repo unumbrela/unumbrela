@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=26&duration=3200&pause=900&color=4600AF&center=true&vCenter=true&width=760&height=70&lines=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AF%E9%83%AD%E5%AD%90%E8%B1%AA+%F0%9F%91%8B;%E6%B1%9F%E5%8D%97%E5%A4%A7%E5%AD%A6+%C2%B7+%E6%9C%AC%E7%A7%91%E7%94%9F%E7%A7%91%E7%A0%94;AI+for+Science+%C2%B7+%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%8E%A8%E7%90%86+%C2%B7+%E5%A4%9A%E6%A8%A1%E6%80%81%E5%AD%A6%E4%B9%A0" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=26&duration=3200&pause=900&color=4600AF&center=true&vCenter=true&width=760&height=70&lines=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AF%E9%83%AD%E5%AD%90%E8%B1%AA+%F0%9F%91%8B;%E6%B1%9F%E5%8D%97%E5%A4%A7%E5%AD%A6+%C2%B7+%E6%9C%AC%E7%A7%91%E7%94%9F%E7%A7%91%E7%A0%94;%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%A7%86%E8%A7%89+%C2%B7+AI4Science+%C2%B7+%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -18,24 +18,25 @@
 
 ## 🎓 关于我
 
-我是 **江南大学**（211 工程·双一流）人工智能与计算机学院数字媒体技术专业本科生，**2023 级（预计 2027 年毕业）**，绩点 **88 / 100**。
+我是 **江南大学**（211 工程·双一流）人工智能与计算机学院数字媒体技术专业本科生，**2023 级（大三在读，预计 2027 年毕业）**，绩点 **88 / 100**。
 
-研究兴趣聚焦 **AI for Science（尤其是生物信息学方向）**、**大语言模型推理与 Agent**、**多模态学习** 与 **医学图像分析**。
+研究方向涵盖 **计算机视觉**（医学图像分割与视觉-语言融合）、**AI4Science**（蛋白质与小分子设计）与 **大语言模型**（推理与神经符号 Agent）。
 
-- 📄 投稿 / 发表 **七篇** 学术论文 — 六篇一作 / 共一，**六篇已录用**
-- 🧬 **iGEM 2025 国际金奖** — 干实验负责人，赴巴黎线下答辩
-- 🛡️ 申请 **发明专利一项**（神经符号驱动的旅行规划方法）
+- 📄 **录用 3 篇** 学术论文 — 全部为 **一作 / 共一**（ICIC 2026 两篇 Oral · ICML 2026）
+- 🧬 **iGEM 2025 国际金奖** — 干实验（计算）负责人，赴巴黎线下答辩
+- 🛡️ 申请 **发明专利一项**（基于神经符号融合的语言驱动旅行规划方法）
 - 🏆 十余项学科竞赛与荣誉（美赛 H 奖、CUMCM 江苏二等、蓝桥杯江苏二等、**无锡市优秀学生干部**、**江南大学荣誉至善生** 等）
 
-🔭 **欢迎科研合作与机会推荐** — 科研助理 / 暑期实习 / 研究生申请，尤其是 **AI for 生命科学** 与 **生物序列建模** 方向。
+🔭 **欢迎科研合作与机会推荐** — 科研助理 / 暑期实习 / 研究生申请，方向为 **计算机视觉**、**AI for Science** 与 **大语言模型推理**。
 
 ---
 
 ## 🔬 研究方向
 
 ```
-AI for Science（生物信息学）  ·  单细胞基础模型  ·  蛋白质 / 多肽设计
-大语言模型推理与神经符号 Agent  ·  多模态学习  ·  医学图像分析
+医学图像分割与视觉-语言融合  ——  弱语义提示下的精细结构分割、Mamba/状态空间模型、融合方向自适应
+AI4Science  ——  蛋白质与小分子的设计、数据分析与数据可视化
+AIGC 内容检测与视觉鲁棒性  ——  AI 生成图像检测、OOD 泛化、CLIP 表征、鲁棒性不对称分析
 ```
 
 ---
@@ -46,13 +47,9 @@ AI for Science（生物信息学）  ·  单细胞基础模型  ·  蛋白质 / 
 
 | # | 论文 | 会议 | 角色 | 状态 |
 |:--:|:--|:--|:--|:--|
-| 1 | **Tokenization is Mechanism:** 面向生物序列的信息非对称 Token Merging | **NeurIPS 2026** *(CCF-A)* | 一作 | 投稿中 |
-| 2 | **ProtoGene:** 基于生物先验原型微调的单细胞基础模型 RT-Gap 桥接 | **ICIC 2026 Oral** *(CCF-C)* | 一作 | ✅ 已录用 |
-| 3 | **Extract Then Compile:** 大语言模型的可靠神经符号规划 | **ICIC 2026 Oral** *(CCF-C)* | 一作 | ✅ 已录用 |
-| 4 | **Fusion Direction Matters:** 对齐自适应跨模态融合用于医学图像分割 | **ICIC 2026 Oral** *(CCF-C)* | 一作 | ✅ 已录用 |
-| 5 | **FWMamba-UNet:** 频域-小波增强 Mamba UNet 医学图像分割 | **ICIC 2026 Oral** *(CCF-C)* | 一作 | ✅ 已录用 |
-| 6 | **MambaGuard:** 基于 CLIP-Mamba 的 OOD 生成图像检测 | **PRCV 2025** *(CCF-C)* | 共一 | ✅ 已录用 |
-| 7 | **RA-Det:** 基于鲁棒性非对称的通用 AI 生成图像检测 | **ICML 2026** *(CCF-A)* | 五作 | ✅ 已录用 |
+| 1 | **FWMamba-UNet:** 频域-小波增强 Mamba UNet 医学图像分割 | **ICIC 2026 Oral** *(CCF-C)* | 一作 | ✅ 已录用 |
+| 2 | **Extract Then Compile:** 大语言模型的可靠神经符号规划 | **ICIC 2026 Oral** *(CCF-C)* | 一作 | ✅ 已录用 |
+| 3 | **RA-Det:** 基于鲁棒性非对称的通用 AI 生成图像检测 | **ICML 2026** *(CCF-A)* | 共一 | ✅ 已录用 |
 
 📚 完整论文列表与详细介绍见 **[学术主页](https://unumbrela.github.io/index_cn.html)**。
 
@@ -77,7 +74,7 @@ AI for Science（生物信息学）  ·  单细胞基础模型  ·  蛋白质 / 
 ### 🧬 AMP Forge — iGEM 2025 金牌
 **干实验负责人 · 巴黎**
 
-抗菌肽从头设计：ESM-2 / ProtT5 / Ankh + BiGRU-VAE → Latent Diffusion → Transformer 解码，多项指标 **SOTA**；湿实验验证多条变体活性优于 LL-37。
+抗菌肽从头设计：ESM-2 / ProtT5 / Ankh + BiGRU-VAE → Latent Diffusion → Transformer 解码，三阶段训练（MLE → RL → 扩散精调），多项指标 **SOTA**；湿实验验证多条变体活性优于 LL-37。
 
 `蛋白语言模型` `Latent Diffusion` `RLHF` `PyTorch`
 
@@ -86,22 +83,22 @@ AI for Science（生物信息学）  ·  单细胞基础模型  ·  蛋白质 / 
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 Tokenization-as-Mechanism
-**NeurIPS 2026 在投 · 一作**
-
-信息非对称的 Token Merging：将分词器本身作为可解释机制，跨 **pMHC · TCR · DNA · SMILES** 一致提升，合并树具有清晰生物学含义。
-
-`信息论` `pMHC` `TCR` `DNA`
-
-</td>
-<td width="50%" valign="top">
-
 ### 🧭 SHINE — 神经符号 Agent
 **ICIC 2026 Oral · 一作 + 专利**
 
 *Extract-Then-Compile*：LLM 先将自然语言约束抽取为符号程序，再由经典求解器可靠求解。已申请国家发明专利。
 
 `LLM Agent` `神经符号` `约束求解`
+
+</td>
+<td width="50%" valign="top">
+
+### 🛡️ RA-Det — AI 生成图像检测
+**ICML 2026 · 共一**
+
+基于*鲁棒性非对称*的通用 AI 生成图像检测——利用真实图像与生成图像对扰动响应的差异实现判别。
+
+`生成图像检测` `OOD` `CLIP` `鲁棒性`
 
 </td>
 </tr>
@@ -119,7 +116,6 @@ AI for Science（生物信息学）  ·  单细胞基础模型  ·  蛋白质 / 
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![DeepSpeed](https://img.shields.io/badge/DeepSpeed-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Megatron-LM](https://img.shields.io/badge/Megatron--LM-76B900?style=flat-square&logo=nvidia&logoColor=white)
 
 **结构与方法**
 
@@ -130,15 +126,13 @@ AI for Science（生物信息学）  ·  单细胞基础模型  ·  蛋白质 / 
 ![RLHF](https://img.shields.io/badge/RLHF-3B82F6?style=flat-square)
 ![Wavelet](https://img.shields.io/badge/Wavelet-0EA5E9?style=flat-square)
 
-**AI for Science**
+**视觉 & AI for Science**
 
-![ESM-2](https://img.shields.io/badge/ESM--2-06B6D4?style=flat-square)
+![CLIP](https://img.shields.io/badge/CLIP-06B6D4?style=flat-square)
+![ESM-2](https://img.shields.io/badge/ESM--2-0EA5E9?style=flat-square)
 ![ProtT5](https://img.shields.io/badge/ProtT5-8B5CF6?style=flat-square)
 ![Ankh](https://img.shields.io/badge/Ankh-7C3AED?style=flat-square)
-![scGPT](https://img.shields.io/badge/scGPT-DC2626?style=flat-square)
-![Geneformer](https://img.shields.io/badge/Geneformer-0F766E?style=flat-square)
-![BioNeMo](https://img.shields.io/badge/BioNeMo-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![PyRosetta](https://img.shields.io/badge/PyRosetta-B91C1C?style=flat-square)
+![BiGRU-VAE](https://img.shields.io/badge/BiGRU--VAE-DC2626?style=flat-square)
 
 **语言与工具**
 

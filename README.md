@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=26&duration=3200&pause=900&color=4600AF&center=true&vCenter=true&width=760&height=70&lines=Hi%2C+I'm+Zihao+Guo+%F0%9F%91%8B;Undergrad+Researcher+%40+Jiangnan+University;AI+for+Science+%C2%B7+LLM+Reasoning+%C2%B7+Multimodal+Learning" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=26&duration=3200&pause=900&color=4600AF&center=true&vCenter=true&width=760&height=70&lines=Hi%2C+I'm+Zihao+Guo+%F0%9F%91%8B;Undergrad+Researcher+%40+Jiangnan+University;Computer+Vision+%C2%B7+AI4Science+%C2%B7+LLM+Reasoning" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -18,41 +18,40 @@
 
 ## 🎓 About Me
 
-I'm an undergraduate researcher at **Jiangnan University** (Project 211 · Double First-Class), School of AI & Computer Science, B.Eng. in Digital Media Technology — **Class of 2027** · GPA **88 / 100**.
+I'm an undergraduate researcher at **Jiangnan University** (Project 211 · Double First-Class), School of AI & Computer Science, B.Eng. in Digital Media Technology — **Class of 2027 (Junior)** · GPA **88 / 100**.
 
-My research lies at the intersection of **AI for Science** (biology in particular), **LLM reasoning & agents**, **multimodal learning**, and **medical image analysis**.
+My research spans **Computer Vision** (medical image segmentation & vision-language fusion), **AI4Science** (protein & small-molecule design), and **Large Language Models** (reasoning & neuro-symbolic agents).
 
-- 📄 Authored / co-authored **7 papers** — 6 as first / co-first author, **6 already accepted**
-- 🧬 **iGEM 2025 Gold Medal** — dry-lab lead, in-person defence in Paris
-- 🛡️ **1 invention patent** filed (neuro-symbolic travel planning)
-- 🏆 ~10 academic competition / honour awards (MCM/ICM HM, CUMCM, Lanqiao Cup, *Wuxi City Outstanding Student Cadre*, *Jiangnan Honor Student* …)
+- 📄 **3 papers accepted** — all as **first / co-first author** (ICIC 2026 ×2 Oral · ICML 2026)
+- 🧬 **iGEM 2025 Gold Medal** — dry-lab (computational) lead, in-person defence in Paris
+- 🛡️ **1 invention patent** filed (neuro-symbolic language-driven travel planning)
+- 🏆 10+ academic competition & honour awards (MCM/ICM HM, CUMCM, Lanqiao Cup, *Wuxi City Outstanding Student Cadre*, *Jiangnan Honor Student* …)
 
-🔭 **I am actively looking for** research-assistant, summer-internship, and graduate-study opportunities — especially in **AI for Life Sciences** and **biological sequence modelling**.
+🔭 **I am actively looking for** research-assistant, summer-internship, and graduate-study opportunities in **Computer Vision**, **AI for Science**, and **LLM reasoning**.
 
 ---
 
 ## 🔬 Research Interests
 
 ```
-AI for Science (Bioinformatics)   ·   Single-Cell Foundation Models   ·   Protein & Peptide Design
-LLM Reasoning & Neuro-Symbolic Agents   ·   Multimodal Learning   ·   Medical Image Analysis
+Medical Image Segmentation & Vision-Language Fusion  —  fine-structure segmentation under weak
+semantic prompts, Mamba/SSM, alignment-adaptive fusion
+AI4Science  —  protein & small-molecule design, data analysis & visualisation
+AIGC Detection & Visual Robustness  —  AI-generated image detection, OOD generalisation,
+CLIP representations, robustness-asymmetry analysis
 ```
 
 ---
 
-## 📄 Selected Publications
+## 📄 Publications
 
 > <sup>1</sup> first author · `*` co-first author
 
 | # | Paper | Venue | Role | Status |
 |:--:|:--|:--|:--|:--|
-| 1 | **Tokenization is Mechanism:** Information-Asymmetric Token Merging for Biological Sequences | **NeurIPS 2026** *(CCF-A)* | 1st author | Under Review |
-| 2 | **ProtoGene:** Bridging the RT-Gap in Single-Cell Foundation Models via Biology-Aware Prototypical Fine-Tuning | **ICIC 2026 Oral** *(CCF-C)* | 1st author | ✅ Accepted |
-| 3 | **Extract Then Compile:** Reliable Neuro-Symbolic Planning for Large Language Models | **ICIC 2026 Oral** *(CCF-C)* | 1st author | ✅ Accepted |
-| 4 | **Fusion Direction Matters:** Alignment-Adaptive Cross-Modal Fusion for Medical Image Segmentation | **ICIC 2026 Oral** *(CCF-C)* | 1st author | ✅ Accepted |
-| 5 | **FWMamba-UNet:** Frequency-Wavelet Enhanced Mamba UNet for Medical Image Segmentation | **ICIC 2026 Oral** *(CCF-C)* | 1st author | ✅ Accepted |
-| 6 | **MambaGuard:** A CLIP-Mamba Approach for OOD Generated Image Detection | **PRCV 2025** *(CCF-C)* | Co-first | ✅ Accepted |
-| 7 | **RA-Det:** Towards Universal Detection of AI-Generated Images via Robustness Asymmetry | **ICML 2026** *(CCF-A)* | 5th author | ✅ Accepted |
+| 1 | **FWMamba-UNet:** Frequency-Wavelet Enhanced Mamba UNet for Medical Image Segmentation | **ICIC 2026 Oral** *(CCF-C)* | 1st author | ✅ Accepted |
+| 2 | **Extract Then Compile:** Reliable Neuro-Symbolic Planning for Large Language Models | **ICIC 2026 Oral** *(CCF-C)* | 1st author | ✅ Accepted |
+| 3 | **RA-Det:** Towards Universal Detection of AI-Generated Images via Robustness Asymmetry | **ICML 2026** *(CCF-A)* | Co-first | ✅ Accepted |
 
 📚 Full publication list & details on my **[academic homepage](https://unumbrela.github.io)**.
 
@@ -77,7 +76,7 @@ Frequency-domain + wavelet-transform branches augmenting a Mamba state-space UNe
 ### 🧬 AMP Forge — iGEM 2025 Gold
 **Dry-Lab Lead · Paris**
 
-De-novo antimicrobial peptide design: ESM-2 / ProtT5 / Ankh + BiGRU-VAE → Latent Diffusion → Transformer decoder. **SOTA** on multiple metrics; wet-lab-validated variants outperform LL-37.
+De-novo antimicrobial peptide design: ESM-2 / ProtT5 / Ankh + BiGRU-VAE → Latent Diffusion → Transformer decoder, three-stage training (MLE → RL → diffusion). **SOTA** on multiple metrics; wet-lab-validated variants outperform LL-37.
 
 `PLMs` `Latent Diffusion` `RLHF` `PyTorch`
 
@@ -86,22 +85,22 @@ De-novo antimicrobial peptide design: ESM-2 / ProtT5 / Ankh + BiGRU-VAE → Late
 <tr>
 <td width="50%" valign="top">
 
-### 🧠 Tokenization-as-Mechanism
-**NeurIPS 2026 (sub) · 1st Author**
+### 🧭 SHINE — Neuro-Symbolic Travel Agent
+**ICIC 2026 Oral · 1st Author + Patent**
 
-Information-asymmetric token merging that turns the tokenizer into an interpretable mechanism — consistent gains across **pMHC · TCR · DNA · SMILES**.
+*Extract-Then-Compile*: an LLM lifts natural-language constraints into a symbolic program, solved reliably by classical search. Filed national invention patent.
 
-`Information Theory` `pMHC` `TCR` `DNA`
+`LLM Agent` `Neuro-Symbolic` `Constraint Solving`
 
 </td>
 <td width="50%" valign="top">
 
-### 🧭 SHINE — Neuro-Symbolic Travel Agent
-**ICIC 2026 Oral · 1st Author + Patent**
+### 🛡️ RA-Det — AI-Generated Image Detection
+**ICML 2026 · Co-First Author**
 
-*Extract-Then-Compile*: LLM lifts natural-language constraints into a symbolic program, solved by classical search. Filed national invention patent.
+Universal detection of AI-generated images via *robustness asymmetry* — exploiting how real vs. generated images respond differently to perturbations.
 
-`LLM Agent` `Neuro-Symbolic` `Constraint Solving`
+`AIGC Detection` `OOD` `CLIP` `Robustness`
 
 </td>
 </tr>
@@ -119,7 +118,6 @@ Information-asymmetric token merging that turns the tokenizer into an interpreta
 ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![DeepSpeed](https://img.shields.io/badge/DeepSpeed-0078D4?style=flat-square&logo=microsoft&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![Megatron-LM](https://img.shields.io/badge/Megatron--LM-76B900?style=flat-square&logo=nvidia&logoColor=white)
 
 **Architectures & Techniques**
 
@@ -130,15 +128,13 @@ Information-asymmetric token merging that turns the tokenizer into an interpreta
 ![RLHF](https://img.shields.io/badge/RLHF-3B82F6?style=flat-square)
 ![Wavelet](https://img.shields.io/badge/Wavelet-0EA5E9?style=flat-square)
 
-**AI for Science**
+**Vision & AI4Science**
 
-![ESM-2](https://img.shields.io/badge/ESM--2-06B6D4?style=flat-square)
+![CLIP](https://img.shields.io/badge/CLIP-06B6D4?style=flat-square)
+![ESM-2](https://img.shields.io/badge/ESM--2-0EA5E9?style=flat-square)
 ![ProtT5](https://img.shields.io/badge/ProtT5-8B5CF6?style=flat-square)
 ![Ankh](https://img.shields.io/badge/Ankh-7C3AED?style=flat-square)
-![scGPT](https://img.shields.io/badge/scGPT-DC2626?style=flat-square)
-![Geneformer](https://img.shields.io/badge/Geneformer-0F766E?style=flat-square)
-![BioNeMo](https://img.shields.io/badge/BioNeMo-76B900?style=flat-square&logo=nvidia&logoColor=white)
-![PyRosetta](https://img.shields.io/badge/PyRosetta-B91C1C?style=flat-square)
+![BiGRU-VAE](https://img.shields.io/badge/BiGRU--VAE-DC2626?style=flat-square)
 
 **Languages & Tools**
 

@@ -22,7 +22,7 @@ I'm an undergraduate researcher at **Jiangnan University** (Project 211 · Doubl
 
 My research spans **Computer Vision** (medical image segmentation & vision-language fusion), **AI4Science** (protein & small-molecule design), and **Large Language Models** (reasoning & neuro-symbolic agents).
 
-- 📄 **3 papers accepted** — all as **first / co-first author** (ICIC 2026 ×2 Oral · ICML 2026)
+- 📄 **3 papers accepted** — ICIC 2026 ×2 Oral · ICML 2026
 - 🧬 **iGEM 2025 Gold Medal** — dry-lab (computational) lead, in-person defence in Paris
 - 🛡️ **1 invention patent** filed (neuro-symbolic language-driven travel planning)
 - 🏆 10+ academic competition & honour awards (MCM/ICM HM, CUMCM, Lanqiao Cup, *Wuxi City Outstanding Student Cadre*, *Jiangnan Honor Student* …)

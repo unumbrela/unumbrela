@@ -2,41 +2,12 @@
   <a href="./README.md">🇬🇧 English</a>
 </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=26&duration=3200&pause=900&color=4600AF&center=true&vCenter=true&width=800&height=70&lines=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AF%E9%83%AD%E5%AD%90%E8%B1%AA+%F0%9F%91%8B;%E8%AE%A1%E7%AE%97%E5%8C%96%E5%AD%A6+%C2%B7+AI4Chem;Mamba+%2F+%E7%8A%B6%E6%80%81%E7%A9%BA%E9%97%B4%E6%A8%A1%E5%9E%8B+%C2%B7+%E7%A5%9E%E7%BB%8F%E7%AC%A6%E5%8F%B7%E6%96%B9%E6%B3%95" alt="Typing SVG" />
-</div>
-
-<div align="center">
-  <a href="https://unumbrela.github.io/"><img src="https://img.shields.io/badge/%E5%AD%A6%E6%9C%AF%E4%B8%BB%E9%A1%B5-4600AF?style=flat-square&logo=githubpages&logoColor=white" /></a>
-  <a href="mailto:1191230418@jiangnan.edu.cn"><img src="https://img.shields.io/badge/%E9%82%AE%E7%AE%B1-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <a href="https://scholar.google.com/"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=google-scholar&logoColor=white" /></a>
-  <img src="https://komarev.com/ghpvc/?username=unumbrela&style=flat-square&color=4600af" alt="Profile Views" />
-</div>
-
----
-
-## 关于我
-
-我是**江南大学**人工智能与计算机学院数字媒体技术专业本科生（2023 级，预计 2027 年毕业）。
-
-我的研究方向是**计算化学与 AI4Chem**。本科阶段围绕 **Mamba 结构建模**与**神经符号方法**两条主线展开研究，并将二者延伸、汇聚于计算化学，构建贯穿表征、推理、验证与发现的科研闭环。
-
-- **4 篇论文**：ICML 2026 · ICIC 2026 两篇 Oral · PRCV 2025
-- **iGEM 2025 国际金奖**：干实验（计算机组）负责人 · 巴黎线下答辩
-- **发明专利 1 项**：可靠神经符号规划方向
-
-欢迎围绕**计算化学、AI4Chem 与科学智能**开展科研合作、实习与研究生申请交流。
-
----
-
 ## 研究定位
 
 | 研究主线 | 本科阶段基础 | 计算化学延伸方向 |
 |:--|:--|:--|
 | **Mamba 结构建模** | 状态空间建模、频域/小波增强、长程视觉结构 | 原子体系中长程相互作用的线性复杂度建模 |
 | **神经符号方法** | Extract-Then-Compile、确定性约束求解、可靠 LLM 规划 | 具有证据、适用域与未知边界的可验证科学智能体 |
-
-两条主线汇聚于同一目标：**既能刻画长程物理结构，又能通过可验证推理采取行动的科学智能系统**。
 
 ---
 
@@ -94,22 +65,11 @@
 
 面向科学智能体“程序能运行、但科学上可能错误”的静默风险，提出 **Verified Repair Contracts（VRC）**认知控制层，将科学知识编译为带适用域、证据与未知边界的可执行契约，在工具调用前完成验证、安全修复与全量重验，使 Agent 从“能运行”走向“有依据地行动”。
 
----
-
-## 工具与方法
-
-`Python` · `PyTorch` · `Mamba / SSM` · `Transformer` · `扩散模型` · `蛋白质语言模型` · `LLM Agent` · `神经符号 AI` · `约束求解` · `科学机器学习`
-
----
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=unumbrela&show_icons=true&theme=transparent&hide_border=true&title_color=4600AF&icon_color=4600AF" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=unumbrela&layout=compact&theme=transparent&hide_border=true&title_color=4600AF" height="160" />
-</div>
-
 <div align="center">
   <br />
-  <i>“我们必须知道，我们必将知道。”——大卫·希尔伯特</i>
+  <i>“If you don't believe you will win, then why bother training and grinding.”</i>
+  <br />
+  — Anonymous
   <br /><br />
-  <a href="https://unumbrela.github.io/"><b>访问学术主页 →</b></a>
+  <a href="https://unumbrela.github.io/"><b>Academic Homepage →</b></a>
 </div>

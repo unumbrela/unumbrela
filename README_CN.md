@@ -71,5 +71,5 @@
   <br />
   — Anonymous
   <br /><br />
-  <a href="https://unumbrela.github.io/index_cn.html"><b>Academic Homepage →</b></a>
+  <a href="https://unumbrela.github.io/"><b>Academic Homepage →</b></a>
 </div>

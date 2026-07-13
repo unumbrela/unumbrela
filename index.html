@@ -1,402 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Academic homepage of Zihao Guo, an undergraduate researcher working on computational chemistry, AI4Chem, state-space models, and neuro-symbolic scientific agents.">
     <title>Zihao Guo — Academic Homepage</title>
-    <meta name="description" content="Academic homepage of Zihao Guo (郭子豪), an undergraduate researcher working on computational chemistry, AI4Chem, Mamba structural modeling, and neuro-symbolic scientific agents." />
-    <meta name="keywords" content="Zihao Guo, 郭子豪, Computational Chemistry, AI4Chem, AI for Science, Mamba, State Space Model, Neuro-Symbolic AI, Scientific Agent, Jiangnan University" />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&amp;display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
-<div class="wrapper">
-
-    <!-- ============ Sidebar ============ -->
-    <aside class="sidebar">
-        <img class="avatar" src="https://ui-avatars.com/api/?name=Zihao+Guo&amp;background=4600af&amp;color=fff&amp;size=340&amp;font-size=0.4&amp;bold=true" alt="Zihao Guo" />
-        <div class="name">Zihao Guo</div>
-        <div class="name-cn">郭子豪</div>
-
-        <p class="affiliation">
-            <strong>Jiangnan University</strong><br />
-            School of AI &amp; Computer Science<br />
-            B.Eng. in Digital Media Technology<br />
-            <span style="color:var(--muted); font-size:0.85rem;">Class of 2027 · Junior</span>
-        </p>
-
-        <div class="interests">
-            <b>Research Interests</b><br />
-            Computational Chemistry · AI4Chem ·
-            Mamba / State-Space Models ·
-            Machine-Learning Interatomic Potentials ·
-            Neuro-Symbolic Scientific Agents
-        </div>
-
-        <div class="social-icons">
-            <a href="mailto:1191230418@jiangnan.edu.cn" title="Email"><i class="fas fa-envelope"></i></a>
-            <a href="https://github.com/unumbrela" title="GitHub" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
-            <a href="https://scholar.google.com/" title="Google Scholar" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i></a>
-            <a href="https://orcid.org/" title="ORCID" target="_blank" rel="noopener"><i class="fab fa-orcid"></i></a>
-            <a href="#contact" title="Contact"><i class="fas fa-address-card"></i></a>
-        </div>
-
-        <div class="lang-switch">
-            <a href="index.html" class="active">EN</a>
-            <a href="index_cn.html">中文</a>
+<div class="site-shell">
+    <aside class="profile-panel" aria-label="Profile">
+        <div class="profile-inner">
+            <img class="profile-avatar profile-photo" src="assets/img/myself.jpg" alt="Portrait of Zihao Guo">
+            <h1 class="profile-name">Zihao Guo</h1>
+            <p class="profile-name-cn">郭子豪</p>
+            <p class="profile-interest"><strong>Research Interest:</strong><br>AI + Chemistry · AI for Science · Scientific Machine Learning · Intelligent Scientific Discovery</p>
+            <div class="profile-links" aria-label="Social links">
+                <a href="mailto:zihao3351@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://github.com/unumbrela" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
         </div>
     </aside>
 
-    <!-- ============ Main content ============ -->
-    <main class="content">
-
-        <nav class="topnav">
-            <a href="#about">About</a>
-            <a href="#news">News</a>
-            <a href="#publications">Publications</a>
-            <a href="#projects">Projects</a>
-            <a href="#agenda">Research Agenda</a>
-            <a href="#awards">Awards</a>
-            <a href="#contact">Contact</a>
+    <main class="main-panel">
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a class="mobile-brand" href="index.html">Zihao Guo</a>
+            <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation"><i class="fa-solid fa-bars"></i></button>
+            <div class="nav-links" id="navLinks">
+                <a class="active" href="index.html" aria-current="page">Home</a>
+                <a href="academic.html">Academic</a>
+                <a href="contact.html">Contact</a>
+            </div>
         </nav>
 
-        <!-- Hero carousel -->
-        <div class="hero-carousel" id="hero">
-            <div class="hero-slide active">
-                <div class="hero-inner">
-                    <span class="badge-tier">Computational Chemistry · AI4Chem</span>
-                    <h2>From Structural Modeling to Verifiable Reasoning<br />Building Closed-Loop AI for Chemistry</h2>
-                    <div class="meta"><i class="fa fa-atom"></i> Mamba / SSM &#160;·&#160; <i class="fa fa-diagram-project"></i> Neuro-Symbolic AI</div>
+        <section class="hero-carousel diagram-carousel" aria-label="Featured research" aria-roledescription="carousel">
+            <article class="carousel-slide diagram-slide active" aria-hidden="false">
+                <img src="assets/img/EuclideanMamba-Overview.webp" alt="Overview of the EuclideanMamba architecture">
+                <div class="carousel-caption compact-caption">
+                    <h1>Chem-Mamba</h1>
+                    <div class="carousel-meta"><span>EuclideanMamba</span></div>
                 </div>
-            </div>
-            <div class="hero-slide">
-                <div class="hero-inner">
-                    <span class="badge-tier">Research Agenda · Chem-Mamba</span>
-                    <h2>EuclideanMamba<br />Linear-Complexity Long-Range Modeling<br />for Atomistic Systems</h2>
-                    <div class="meta"><i class="fa fa-atom"></i> Source &#160;→&#160; Propagation &#160;→&#160; Response</div>
+            </article>
+            <article class="carousel-slide diagram-slide" aria-hidden="true">
+                <img src="assets/img/Overview-Of-VRC.webp" alt="Overview of the Verified Repair Contracts architecture">
+                <div class="carousel-caption compact-caption">
+                    <h1>Chem-Agent</h1>
+                    <div class="carousel-meta"><span>Verified Repair Contracts</span></div>
                 </div>
+            </article>
+            <button class="carousel-control prev" type="button" aria-label="Previous slide"><i class="fa-solid fa-chevron-left"></i></button>
+            <button class="carousel-control next" type="button" aria-label="Next slide"><i class="fa-solid fa-chevron-right"></i></button>
+            <div class="carousel-dots" aria-label="Choose slide">
+                <button class="carousel-dot active" type="button" aria-label="Show slide 1" aria-current="true"></button>
+                <button class="carousel-dot" type="button" aria-label="Show slide 2"></button>
             </div>
-            <div class="hero-slide">
-                <div class="hero-inner">
-                    <span class="badge-tier">Research Agenda · Chem-Agent</span>
-                    <h2>Verified Repair Contracts<br />Scientific Agents That Act<br />with Evidence</h2>
-                    <div class="meta"><i class="fa fa-shield-halved"></i> Verify &#160;·&#160; Repair &#160;·&#160; Revalidate</div>
-                </div>
-            </div>
-            <div class="carousel-dots">
-                <button class="active" aria-label="Slide 1"></button>
-                <button aria-label="Slide 2"></button>
-                <button aria-label="Slide 3"></button>
-            </div>
+        </section>
+
+        <div class="surface">
+            <section class="content-section">
+                <h2 class="section-title">🌟 Research Vision</h2>
+                <p class="lead-copy">My vision is to advance the convergence of artificial intelligence and chemistry, transforming how humanity understands, creates, and discovers matter. I aspire to help build a future in which AI becomes a powerful engine of scientific progress, expanding the frontiers of knowledge and accelerating discoveries that benefit society.</p>
+                <p class="hilbert">“If you don't believe you will win, then why bother training and grinding.”<span>— Anonymous</span></p>
+            </section>
+
+            <section class="content-section">
+                <h2 class="section-title">📰 Latest News</h2>
+                <ul class="news-list">
+                    <li><time datetime="2026">2026</time><span><strong>RA-Det</strong> accepted to <strong>ICML 2026</strong> (CCF-A).</span></li>
+                    <li><time datetime="2026">2026</time><span>Two first-author papers accepted as <strong>Orals at ICIC 2026</strong>.</span></li>
+                    <li><time datetime="2025-11">2025-11</time><span>Awarded <strong>iGEM 2025 Gold Medal</strong> in Paris as dry-lab lead.</span></li>
+                    <li><time datetime="2025">2025</time><span><strong>MambaGuard</strong> published at <strong>PRCV 2025</strong> (CCF-C).</span></li>
+                </ul>
+            </section>
         </div>
 
-        <!-- About / Open to opportunities -->
-        <section class="block" id="about">
-            <h2>🎓 About Me</h2>
-            <div class="callout">
-                <p style="margin:0;">
-                    I am an undergraduate researcher at <strong>Jiangnan University</strong> (Project 211 &amp; Double First-Class).
-                    My research focuses on <strong>computational chemistry and AI4Chem</strong>. During my undergraduate studies,
-                    I have followed two methodological threads—<strong>Mamba-based structural modeling</strong> and
-                    <strong>neuro-symbolic methods</strong>—and am bringing them together to build closed-loop scientific workflows.
-                </p>
-                <p style="margin:10px 0 0;">
-                    I have <strong>4 papers</strong> spanning <em>ICML 2026</em>, <em>ICIC 2026</em> (×2 Oral), and <em>PRCV 2025</em>;
-                    filed <strong>1 invention patent</strong> on reliable neuro-symbolic planning;
-                    and won <strong>Gold at iGEM 2025</strong> as the dry-lab (computational) lead.
-                </p>
-                <p style="margin:10px 0 0;">
-                    I welcome research collaboration, internships, and graduate-study conversations in
-                    <strong>computational chemistry, AI4Chem, and AI for Science</strong>.
-                </p>
-            </div>
-
-            <h2 style="margin-top:42px;">🌟 Research Vision</h2>
-            <p style="text-align:justify; font-size:1.05rem;">
-                My goal is scientific AI that can model long-range physical structure and act through verifiable reasoning.
-                Two research threads form the foundation:
-            </p>
-            <ul style="font-size:1.05rem;">
-                <li><strong>Mamba structural modeling.</strong>
-                    Extending state-space models from frequency-aware visual structure to linear-complexity modeling
-                    of long-range interactions in three-dimensional atomistic systems.</li>
-                <li><strong>Neuro-symbolic scientific intelligence.</strong>
-                    Compiling constraints and scientific knowledge into deterministic, evidence-aware mechanisms
-                    so that agents can verify, repair, and revalidate actions before execution.</li>
-            </ul>
-            <p class="quote">
-                "We must know — we will know."
-                <span class="author">— David Hilbert</span>
-            </p>
-        </section>
-
-        <!-- News -->
-        <section class="block" id="news">
-            <h2>📰 News</h2>
-            <ul class="news-list">
-                <li>
-                    <span class="date">2026</span>
-                    <span><strong>RA-Det</strong> (fifth author) accepted to <strong>ICML 2026</strong> (CCF-A).
-                    <span class="new-tag">NEW</span></span>
-                </li>
-                <li>
-                    <span class="date">2026</span>
-                    <span>Two first-author papers accepted as <strong>Orals at ICIC 2026</strong> (CCF-C):
-                    FWMamba-UNet · Extract-Then-Compile.</span>
-                </li>
-                <li>
-                    <span class="date">2025-11</span>
-                    <span><strong>iGEM 2025 Gold Medal</strong> awarded in Paris; presented as dry-lab lead.</span>
-                </li>
-                <li>
-                    <span class="date">2025</span>
-                    <span><strong>MambaGuard</strong> (co-first author) published at <strong>PRCV 2025</strong> (CCF-C).</span>
-                </li>
-                <li>
-                    <span class="date">2025</span>
-                    <span>Invention patent filed: <em>"A Language-Driven Travel Planning Method &amp; Apparatus Based on Neuro-Symbolic Fusion."</em></span>
-                </li>
-                <li>
-                    <span class="date">2025</span>
-                    <span>Awarded <strong>Outstanding Student Cadre of Wuxi City</strong>.</span>
-                </li>
-            </ul>
-        </section>
-
-        <!-- Education -->
-        <section class="block" id="education">
-            <h2>🏫 Education</h2>
-            <div class="callout">
-                <h3 style="margin:0;">Jiangnan University &#160;<span style="font-size:0.8rem; color:var(--muted); font-weight:400;">(Project 211 · Double First-Class)</span></h3>
-                <p style="margin:6px 0 0;">B.Eng. in Digital Media Technology, School of AI &amp; Computer Science</p>
-                <p style="margin:6px 0 0; color:var(--muted); font-size:0.9rem;">Sep 2023 — Jun 2027 &#160;|&#160; GPA: <strong>88 / 100</strong></p>
-                <p style="margin:10px 0 0;">
-                    Honours: <em>Jiangnan University Honor Student (至善生)</em>,
-                    <em>1st-class Comprehensive Scholarship</em>,
-                    <em>Outstanding Student Cadre (校级)</em>,
-                    <em>Outstanding Student Cadre of Wuxi City (市级)</em>.
-                </p>
-            </div>
-        </section>
-
-        <!-- Publications -->
-        <section class="block" id="publications">
-            <h2>📄 Publications</h2>
-            <p style="text-align:center; color:var(--muted); margin-top:-14px; margin-bottom:24px;">
-                Four selected papers · roles shown explicitly below
-            </p>
-
-            <div class="pub-item">
-                <div class="pub-num">1</div>
-                <div>
-                    <div class="pub-title">FWMamba-UNet: Frequency-Wavelet Enhanced Mamba UNet for Medical Image Segmentation</div>
-                    <div class="pub-authors"><span class="me">Zihao Guo<sup>1</sup></span>, et al.</div>
-                    <div class="pub-meta">
-                        <span class="tag tag-c">ICIC 2026 · CCF-C · Oral</span>
-                        <span class="tag tag-status-accept">Accepted</span>
-                        <span class="tag tag-role">First Author</span>
-                    </div>
-                    <p style="margin:6px 0 0; font-size:0.9rem; color:#444;">
-                        Reveals Mamba's structural blind spot for high-frequency boundaries and repairs it with a
-                        parallel DWT branch; SOTA on three benchmarks with only ~10% more parameters.
-                    </p>
-                </div>
-            </div>
-
-            <div class="pub-item">
-                <div class="pub-num">2</div>
-                <div>
-                    <div class="pub-title">Extract-Then-Compile: Reliable Neuro-Symbolic Planning for Large Language Models</div>
-                    <div class="pub-authors"><span class="me">Zihao Guo<sup>1</sup></span>, et al.</div>
-                    <div class="pub-meta">
-                        <span class="tag tag-c">ICIC 2026 · CCF-C · Oral</span>
-                        <span class="tag tag-status-accept">Accepted</span>
-                        <span class="tag tag-role">First Author</span>
-                    </div>
-                    <p style="margin:6px 0 0; font-size:0.9rem; color:#444;">
-                        Separates LLM-based requirement extraction from deterministic symbolic search; +31.82 points
-                        in all-constraint pass rate on ChinaTravel with ~90% fewer tokens. One invention patent filed.
-                    </p>
-                </div>
-            </div>
-
-            <div class="pub-item">
-                <div class="pub-num">3</div>
-                <div>
-                    <div class="pub-title">MambaGuard: A CLIP-Mamba Approach for OOD Generated Image Detection</div>
-                    <div class="pub-authors"><span class="me">Zihao Guo*</span>, et al.</div>
-                    <div class="pub-meta">
-                        <span class="tag tag-c">PRCV 2025 · CCF-C</span>
-                        <span class="tag tag-status-accept">Published</span>
-                        <span class="tag tag-role">Co-First Author</span>
-                    </div>
-                    <p style="margin:6px 0 0; font-size:0.9rem; color:#444;">
-                        CLIP-Mamba with FFT spectral decoupling for unseen-generator detection, evaluated across
-                        15 generators with strong results on DALL·E 2 and Midjourney.
-                    </p>
-                </div>
-            </div>
-
-            <div class="pub-item">
-                <div class="pub-num">4</div>
-                <div>
-                    <div class="pub-title">RA-Det: Towards Universal Detection of AI-Generated Images via Robustness Asymmetry</div>
-                    <div class="pub-authors">Xinchang Wang, Yunhao Chen, Yuechen Zhang, Congcong Bian, <span class="me">Zihao Guo</span>, et al.</div>
-                    <div class="pub-meta">
-                        <span class="tag tag-a">ICML 2026 · CCF-A</span>
-                        <span class="tag tag-status-accept">Accepted</span>
-                        <span class="tag tag-role">Fifth Author</span>
-                    </div>
-                    <p style="margin:6px 0 0; font-size:0.9rem; color:#444;">
-                        A generator-agnostic robustness-asymmetry signal that improves average detection performance
-                        by 7.81% across 14 generative models.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Projects -->
-        <section class="block" id="projects">
-            <h2>🧪 Research Project</h2>
-            <div class="proj-grid">
-
-                <div class="proj-card">
-                    <div class="role">iGEM 2025 · Gold Medal · Dry-Lab Lead</div>
-                    <h3>AMP Forge — Antimicrobial Peptide De-Novo Design</h3>
-                    <p>
-                        Our team engineered <em>S. cerevisiae</em> to produce the human antimicrobial peptide
-                        <strong>LL-37</strong> against antibiotic resistance. I independently built AMP-Forge:
-                        <strong>protein language model → VAE compressed to a 64-D latent space → latent diffusion →
-                        non-autoregressive decoding</strong>. I curated 25,622 peptides from six databases and added an
-                        activity predictor (PCC = 0.90) for closed-loop screening. Multiple generated variants
-                        outperformed the original sequence in wet-lab validation.
-                    </p>
-                    <div class="stack">
-                        <span>PyTorch</span><span>ESM-2</span><span>ProtT5</span><span>Ankh</span>
-                        <span>Latent Diffusion</span><span>BiGRU-VAE</span><span>RLHF</span>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Research Agenda -->
-        <section class="block" id="agenda">
-            <h2>🧭 Research Agenda</h2>
-            <div class="proj-grid">
-                <div class="proj-card">
-                    <div class="role">Long-Range Atomistic Modeling</div>
-                    <h3>Chem-Mamba · EuclideanMamba</h3>
-                    <p>
-                        A linear-complexity architecture for machine-learning interatomic potentials that represents
-                        charge transfer, electron delocalization, and periodic response as unified
-                        <strong>source–propagation–response</strong> state dynamics. The goal is lower energy error on
-                        three classes of nonlocal tasks under matched evaluation protocols.
-                    </p>
-                    <div class="stack">
-                        <span>AI4Chem</span><span>Mamba / SSM</span><span>Interatomic Potentials</span><span>Long Range</span>
-                    </div>
-                </div>
-                <div class="proj-card">
-                    <div class="role">Verifiable Scientific Agents</div>
-                    <h3>Chem-Agent · Verified Repair Contracts</h3>
-                    <p>
-                        A cognitive control layer for the silent failure mode where code runs but the science is wrong.
-                        <strong>VRC</strong> compiles scientific knowledge into executable contracts with applicability
-                        domains, evidence, and explicit unknown boundaries, then verifies tool calls, performs safe
-                        repairs, and reruns all checks before execution.
-                    </p>
-                    <div class="stack">
-                        <span>Scientific Agent</span><span>Neuro-Symbolic</span><span>Verification</span><span>Tool Use</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Awards -->
-        <section class="block" id="awards">
-            <h2>🏆 Selected Awards</h2>
-            <div class="awards-grid">
-                <div class="award"><i class="fas fa-medal icon"></i><div><b>iGEM 2025 — Gold Medal</b><span>International Genetically Engineered Machine, Paris · Dry-Lab Lead</span></div></div>
-                <div class="award"><i class="fas fa-trophy icon"></i><div><b>MCM/ICM — Honorable Mention</b><span>Mathematical Contest in Modeling (Int'l)</span></div></div>
-                <div class="award"><i class="fas fa-award icon"></i><div><b>Lanqiao Cup — 2nd Prize (Jiangsu)</b><span>AI Track, Project Practice Competition</span></div></div>
-                <div class="award"><i class="fas fa-award icon"></i><div><b>CUMCM — 2nd Prize (Jiangsu)</b><span>China Undergraduate Mathematical Contest in Modeling</span></div></div>
-                <div class="award"><i class="fas fa-star icon"></i><div><b>Outstanding Student Cadre — Wuxi City</b><span>Municipal-level honour, 2025</span></div></div>
-                <div class="award"><i class="fas fa-star icon"></i><div><b>Honor Student (荣誉至善生)</b><span>Jiangnan University</span></div></div>
-                <div class="award"><i class="fas fa-star icon"></i><div><b>1st-Class Comprehensive Scholarship</b><span>Jiangnan University</span></div></div>
-                <div class="award"><i class="fas fa-users icon"></i><div><b>Outstanding Class Collective</b><span>Class leader, DM 2304</span></div></div>
-            </div>
-
-            <h2 style="margin-top:42px;">🤝 Service &amp; Outreach</h2>
-            <p>
-                Founder &amp; team leader of the <strong>"AI Qicheng" Coding Outreach Team</strong> (Jun – Sep 2024).
-                Delivered coding-literacy classes to <strong>600+ primary-school students</strong> in under-developed
-                regions of Shandong; received dozens of provincial &amp; municipal media features and was named a
-                <em>Wuxi City Key Social-Practice Team</em>.
-            </p>
-            <p>
-                Class leader of Digital Media 2304 (2023 – present): led the cohort to win the
-                <em>Outstanding Class Collective</em> award.
-            </p>
-        </section>
-
-        <!-- Contact -->
-        <section class="block" id="contact">
-            <h2>📬 Contact</h2>
-            <div style="text-align:center;">
-                <p><i class="fas fa-envelope" style="color:var(--primary)"></i> &#160;
-                    <a href="mailto:1191230418@jiangnan.edu.cn">1191230418@jiangnan.edu.cn</a>
-                </p>
-                <p><i class="fas fa-map-marker-alt" style="color:var(--primary)"></i> &#160; Wuxi, Jiangsu, China</p>
-                <p style="margin-top:18px;">
-                    <a href="https://github.com/unumbrela" target="_blank" rel="noopener" class="social-icons" style="display:inline-flex;"><span style="display:inline-flex; padding:8px 16px; border:1px solid var(--border); border-radius:20px; gap:6px; align-items:center;"><i class="fab fa-github"></i> github.com/unumbrela</span></a>
-                </p>
-                <p class="quote" style="margin-top:30px;">
-                    I welcome research collaboration, internships, and graduate-study conversations in
-                    computational chemistry, AI4Chem, and AI for Science.
-                </p>
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <div class="footer">
-            &#169; <span id="year">2026</span> <a href="#hero">Zihao Guo</a> · Built with care · Last updated Jul 2026
-        </div>
-
+        <footer class="site-footer">© <span data-current-year>2026</span> <a href="index.html">Zihao Guo</a>. Built for research and discovery.</footer>
     </main>
 </div>
-
-<a href="#hero" class="back-top" id="backTop" aria-label="Back to top"><i class="fas fa-angle-double-up"></i></a>
-
-<script>
-    // Simple carousel
-    (function() {
-        const slides = document.querySelectorAll('.hero-slide');
-        const dots = document.querySelectorAll('.carousel-dots button');
-        let idx = 0;
-        const total = slides.length;
-        function show(i) {
-            slides.forEach((s, k) => s.classList.toggle('active', k === i));
-            dots.forEach((d, k) => d.classList.toggle('active', k === i));
-            idx = i;
-        }
-        dots.forEach((d, k) => d.addEventListener('click', () => show(k)));
-        setInterval(() => show((idx + 1) % total), 5500);
-    })();
-
-    // Back to top
-    const bt = document.getElementById('backTop');
-    window.addEventListener('scroll', () => {
-        bt.classList.toggle('visible', window.scrollY > 320);
-    });
-
-    // Year
-    document.getElementById('year').textContent = new Date().getFullYear();
-</script>
+<a href="#" class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-angles-up"></i></a>
+<script src="assets/js/main.js"></script>
 </body>
 </html>

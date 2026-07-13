@@ -3,162 +3,113 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=26&duration=3200&pause=900&color=4600AF&center=true&vCenter=true&width=760&height=70&lines=Hi%2C+I'm+Zihao+Guo+%F0%9F%91%8B;Undergrad+Researcher+%40+Jiangnan+University;Computer+Vision+%C2%B7+AI4Science+%C2%B7+LLM+Reasoning" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=26&duration=3200&pause=900&color=4600AF&center=true&vCenter=true&width=800&height=70&lines=Hi%2C+I'm+Zihao+Guo+%F0%9F%91%8B;Computational+Chemistry+%C2%B7+AI4Chem;Mamba+%2F+State+Space+Models+%C2%B7+Neuro-Symbolic+AI" alt="Typing SVG" />
 </div>
 
 <div align="center">
   <a href="https://unumbrela.github.io"><img src="https://img.shields.io/badge/Academic_Homepage-4600AF?style=flat-square&logo=githubpages&logoColor=white" /></a>
   <a href="mailto:1191230418@jiangnan.edu.cn"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
   <a href="https://scholar.google.com/"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=google-scholar&logoColor=white" /></a>
-  <a href="https://orcid.org/"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white" /></a>
   <img src="https://komarev.com/ghpvc/?username=unumbrela&style=flat-square&color=4600af" alt="Profile Views" />
 </div>
 
 ---
 
-## 🎓 About Me
+## About Me
 
-I'm an undergraduate researcher at **Jiangnan University** (Project 211 · Double First-Class), School of AI & Computer Science, B.Eng. in Digital Media Technology — **Class of 2027 (Junior)** · GPA **88 / 100**.
+I am an undergraduate researcher at **Jiangnan University**, School of AI & Computer Science, pursuing a B.Eng. in Digital Media Technology (Class of 2027).
 
-My research spans **Computer Vision** (medical image segmentation & vision-language fusion), **AI4Science** (protein & small-molecule design), and **Large Language Models** (reasoning & neuro-symbolic agents).
+My research focuses on **Computational Chemistry and AI4Chem**. During my undergraduate studies, I have followed two methodological threads—**Mamba-based structural modeling** and **neuro-symbolic methods**—and am now bringing them together in computational chemistry to build closed-loop scientific workflows spanning representation, reasoning, verification, and discovery.
 
-- 📄 **3 papers accepted** — ICIC 2026 ×2 Oral · ICML 2026
-- 🧬 **iGEM 2025 Gold Medal** — dry-lab (computational) lead, in-person defence in Paris
-- 🛡️ **1 invention patent** filed (neuro-symbolic language-driven travel planning)
-- 🏆 10+ academic competition & honour awards (MCM/ICM HM, CUMCM, Lanqiao Cup, *Wuxi City Outstanding Student Cadre*, *Jiangnan Honor Student* …)
+- **4 papers**: ICML 2026 · ICIC 2026 ×2 Oral · PRCV 2025
+- **iGEM 2025 Gold Medal**: dry-lab (computational) lead · in-person presentation in Paris
+- **1 invention patent filed** on reliable neuro-symbolic planning
 
-🔭 **I am actively looking for** research-assistant, summer-internship, and graduate-study opportunities in **Computer Vision**, **AI for Science**, and **LLM reasoning**.
-
----
-
-## 🔬 Research Interests
-
-```
-Medical Image Segmentation & Vision-Language Fusion  —  fine-structure segmentation under weak
-semantic prompts, Mamba/SSM, alignment-adaptive fusion
-AI4Science  —  protein & small-molecule design, data analysis & visualisation
-AIGC Detection & Visual Robustness  —  AI-generated image detection, OOD generalisation,
-CLIP representations, robustness-asymmetry analysis
-```
+I welcome conversations about research collaboration, internships, and graduate study in **Computational Chemistry, AI4Chem, and AI for Science**.
 
 ---
 
-## 📄 Publications
+## Research Focus
 
-> <sup>1</sup> first author · `*` co-first author
+| Thread | Undergraduate foundation | Direction in computational chemistry |
+|:--|:--|:--|
+| **Mamba Structural Modeling** | State-space modeling, frequency/wavelet enhancement, long-range visual structure | Linear-complexity modeling of long-range interactions in atomistic systems |
+| **Neuro-Symbolic AI** | Extract-Then-Compile, deterministic constraint solving, reliable LLM planning | Verifiable scientific agents with explicit evidence, applicability domains, and unknown boundaries |
 
-| # | Paper | Venue | Role | Status |
-|:--:|:--|:--|:--|:--|
-| 1 | **FWMamba-UNet:** Frequency-Wavelet Enhanced Mamba UNet for Medical Image Segmentation | **ICIC 2026 Oral** *(CCF-C)* | 1st author | ✅ Accepted |
-| 2 | **Extract Then Compile:** Reliable Neuro-Symbolic Planning for Large Language Models | **ICIC 2026 Oral** *(CCF-C)* | 1st author | ✅ Accepted |
-| 3 | **RA-Det:** Towards Universal Detection of AI-Generated Images via Robustness Asymmetry | **ICML 2026** *(CCF-A)* | Co-first | ✅ Accepted |
-
-📚 Full publication list & details on my **[academic homepage](https://unumbrela.github.io)**.
+The two threads converge on a single goal: **scientific AI systems that model long-range physical structure and act through verifiable reasoning**.
 
 ---
 
-## 🧪 Featured Projects
+## Publications
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### 1. FWMamba-UNet: Frequency-Wavelet Enhanced Mamba UNet for Medical Image Segmentation
 
-### 🩻 FWMamba-UNet
-**ICIC 2026 Oral · 1st Author**
+**First Author** · ICIC 2026 (**Oral**, CCF-C)
 
-Frequency-domain + wavelet-transform branches augmenting a Mamba state-space UNet, capturing cross-scale boundary cues that pure spatial UNets miss.
+Reveals that the Mamba state-space structure is intrinsically insensitive to high-frequency image details such as object boundaries, and repairs this limitation with a parallel discrete-wavelet-transform branch. With only about 10% more parameters, the model achieves state-of-the-art results on three medical-image-segmentation benchmarks.
 
-`Mamba` `Wavelet` `FFT` `Medical Imaging`
+### 2. Extract-Then-Compile: Reliable Neuro-Symbolic Planning for Large Language Models
 
-</td>
-<td width="50%" valign="top">
+**First Author** · ICIC 2026 (**Oral**, CCF-C) · 1 invention patent filed
 
-### 🧬 AMP Forge — iGEM 2025 Gold
-**Dry-Lab Lead · Paris**
+Introduces an Extract-Then-Compile paradigm: the LLM only extracts user requirements into a structured table, while a deterministic symbolic system performs hard-constraint search. It improves the all-constraint pass rate on ChinaTravel by 31.82 points while using about 90% fewer tokens, enabling a 7B model to outperform larger models.
 
-De-novo antimicrobial peptide design: ESM-2 / ProtT5 / Ankh + BiGRU-VAE → Latent Diffusion → Transformer decoder, three-stage training (MLE → RL → diffusion). **SOTA** on multiple metrics; wet-lab-validated variants outperform LL-37.
+### 3. MambaGuard: A CLIP-Mamba Approach for OOD Generated Image Detection
 
-`PLMs` `Latent Diffusion` `RLHF` `PyTorch`
+**Co-First Author** · PRCV 2025 (CCF-C)
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+Combines a CLIP-Mamba backbone with FFT-based spectral decoupling to detect images produced by generators unseen during training. Evaluated across 15 generative models, with particularly strong results on difficult cases including DALL·E 2 and Midjourney.
 
-### 🧭 SHINE — Neuro-Symbolic Travel Agent
-**ICIC 2026 Oral · 1st Author + Patent**
+### 4. RA-Det: Towards Universal Detection of AI-Generated Images via Robustness Asymmetry
 
-*Extract-Then-Compile*: an LLM lifts natural-language constraints into a symbolic program, solved reliably by classical search. Filed national invention patent.
+**Fifth Author** · ICML 2026 (CCF-A)
 
-`LLM Agent` `Neuro-Symbolic` `Constraint Solving`
-
-</td>
-<td width="50%" valign="top">
-
-### 🛡️ RA-Det — AI-Generated Image Detection
-**ICML 2026 · Co-First Author**
-
-Universal detection of AI-generated images via *robustness asymmetry* — exploiting how real vs. generated images respond differently to perturbations.
-
-`AIGC Detection` `OOD` `CLIP` `Robustness`
-
-</td>
-</tr>
-</table>
+Identifies robustness asymmetry as a generator-agnostic signal: small perturbations preserve the semantics of real images but cause larger drift in generated images. The resulting detector improves average performance by 7.81% across 14 generative models without relying on generator fingerprints.
 
 ---
 
-## 🛠️ Tech Stack
+## Research Project
 
-<div align="center">
+### AMP-Forge · iGEM 2025 Gold Medal
 
-**Deep Learning & LLMs**
+**Dry-Lab Lead · Mar–Nov 2025 · In-person presentation in Paris**
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![DeepSpeed](https://img.shields.io/badge/DeepSpeed-0078D4?style=flat-square&logo=microsoft&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white)
+Our team engineered *Saccharomyces cerevisiae* to produce the human antimicrobial peptide LL-37 against antibiotic resistance. I independently built **AMP-Forge**, a de-novo antimicrobial-peptide design platform:
 
-**Architectures & Techniques**
+`Protein Language Model → VAE (64-D Latent Space) → Latent Diffusion → Non-Autoregressive Decoder`
 
-![Transformer](https://img.shields.io/badge/Transformer-FF6F00?style=flat-square)
-![Mamba/SSM](https://img.shields.io/badge/Mamba%2FSSM-8B5CF6?style=flat-square)
-![Diffusion](https://img.shields.io/badge/Diffusion-EC4899?style=flat-square)
-![LoRA](https://img.shields.io/badge/LoRA%2FQLoRA-10B981?style=flat-square)
-![RLHF](https://img.shields.io/badge/RLHF-3B82F6?style=flat-square)
-![Wavelet](https://img.shields.io/badge/Wavelet-0EA5E9?style=flat-square)
-
-**Vision & AI4Science**
-
-![CLIP](https://img.shields.io/badge/CLIP-06B6D4?style=flat-square)
-![ESM-2](https://img.shields.io/badge/ESM--2-0EA5E9?style=flat-square)
-![ProtT5](https://img.shields.io/badge/ProtT5-8B5CF6?style=flat-square)
-![Ankh](https://img.shields.io/badge/Ankh-7C3AED?style=flat-square)
-![BiGRU-VAE](https://img.shields.io/badge/BiGRU--VAE-DC2626?style=flat-square)
-
-**Languages & Tools**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=flat-square&logo=latex&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-</div>
+- Built a corpus of **25,622 antimicrobial peptides from six databases**.
+- Added an activity predictor with **PCC = 0.90** for closed-loop screening.
+- Generated multiple variants whose antimicrobial activity was **validated in wet-lab experiments to outperform the original sequence**.
 
 ---
 
-## 📊 GitHub Stats
+## Research Agenda
+
+### Chem-Mamba
+
+For long-range modeling in machine-learning interatomic potentials, I plan to develop **EuclideanMamba**, a linear-complexity framework that unifies charge transfer, electron delocalization, and periodic response in three-dimensional atomic systems as **source–propagation–response** state dynamics, targeting lower energy errors on three classes of nonlocal tasks under matched protocols.
+
+### Chem-Agent
+
+To address the silent failure mode in which a scientific agent's program runs but its science is wrong, I plan to develop **Verified Repair Contracts (VRC)**: a cognitive control layer that compiles scientific knowledge into executable contracts with applicability domains, evidence, and explicit unknown boundaries. VRC verifies tool calls, performs safe repairs, and reruns all checks before execution—moving agents from merely running to acting with evidence.
+
+---
+
+## Tools & Methods
+
+`Python` · `PyTorch` · `Mamba / SSM` · `Transformer` · `Diffusion Models` · `Protein Language Models` · `LLM Agents` · `Neuro-Symbolic AI` · `Constraint Solving` · `Scientific Machine Learning`
+
+---
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=unumbrela&show_icons=true&theme=transparent&hide_border=true&title_color=4600AF&icon_color=4600AF" height="160" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=unumbrela&layout=compact&theme=transparent&hide_border=true&title_color=4600AF" height="160" />
 </div>
 
----
-
 <div align="center">
+  <br />
   <i>"We must know — we will know." — David Hilbert</i>
   <br /><br />
-  <a href="https://unumbrela.github.io"><b>📘 Visit my academic homepage →</b></a>
+  <a href="https://unumbrela.github.io"><b>Visit my academic homepage →</b></a>
 </div>

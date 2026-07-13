@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <a href="https://unumbrela.github.io/index_cn.html"><img src="https://img.shields.io/badge/%E5%AD%A6%E6%9C%AF%E4%B8%BB%E9%A1%B5-4600AF?style=flat-square&logo=githubpages&logoColor=white" /></a>
+  <a href="https://unumbrela.github.io/"><img src="https://img.shields.io/badge/%E5%AD%A6%E6%9C%AF%E4%B8%BB%E9%A1%B5-4600AF?style=flat-square&logo=githubpages&logoColor=white" /></a>
   <a href="mailto:1191230418@jiangnan.edu.cn"><img src="https://img.shields.io/badge/%E9%82%AE%E7%AE%B1-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
   <a href="https://scholar.google.com/"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=google-scholar&logoColor=white" /></a>
   <img src="https://komarev.com/ghpvc/?username=unumbrela&style=flat-square&color=4600af" alt="Profile Views" />
@@ -111,5 +111,5 @@
   <br />
   <i>“我们必须知道，我们必将知道。”——大卫·希尔伯特</i>
   <br /><br />
-  <a href="https://unumbrela.github.io/index_cn.html"><b>访问学术主页 →</b></a>
+  <a href="https://unumbrela.github.io/"><b>访问学术主页 →</b></a>
 </div>

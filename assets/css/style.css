@@ -210,6 +210,12 @@ p { margin-top: 0; }
     background: #050b18;
 }
 
+.hero-carousel.diagram-carousel {
+    height: auto;
+    aspect-ratio: 16 / 9;
+    background: #fff;
+}
+
 .carousel-slide {
     position: absolute;
     inset: 0;
@@ -226,6 +232,11 @@ p { margin-top: 0; }
     object-fit: cover;
 }
 
+.diagram-slide img {
+    object-fit: contain;
+    background: #fff;
+}
+
 .carousel-caption {
     position: absolute;
     inset: 0;
@@ -237,6 +248,23 @@ p { margin-top: 0; }
     text-align: center;
     color: #fff;
     background: rgba(0,0,0,.5);
+}
+
+.diagram-slide .compact-caption {
+    top: auto;
+    padding: 54px 70px 28px;
+    justify-content: flex-end;
+    background: linear-gradient(to bottom, transparent, rgba(5, 11, 24, .88));
+}
+
+.diagram-slide .compact-caption h1 {
+    margin-bottom: 2px;
+    font-size: 1.5rem;
+}
+
+.diagram-carousel .carousel-control {
+    color: var(--primary-dark);
+    text-shadow: 0 1px 3px rgba(255,255,255,.9);
 }
 
 .carousel-caption h1 {
@@ -543,7 +571,11 @@ p { margin-top: 0; }
     .nav-links.open { display: flex; }
     .nav-links a { padding: 14px 22px; text-align: center; }
     .hero-carousel { height: 365px; }
+    .hero-carousel.diagram-carousel { height: auto; }
     .carousel-caption { padding: 45px 48px; }
+    .diagram-slide .compact-caption { padding: 36px 48px 18px; }
+    .diagram-slide .compact-caption h1 { font-size: 1rem; }
+    .diagram-slide .compact-caption .carousel-meta { font-size: .6rem; }
     .carousel-meta { flex-direction: column; gap: 3px; }
     .content-section { padding: 42px 25px; }
     .section-title { font-size: 1.65rem; }

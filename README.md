@@ -1,75 +1,79 @@
-<div align="right">
-  <a href="./README_CN.md">🇨🇳 中文</a>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/profile-header-dark.svg">
+  <img src="assets/img/profile-header-light.svg" alt="Hi, I’m Zihao — state-space models, neuro-symbolic reasoning & AI for Science." width="900">
+</picture>
 
-## Research Focus
+**English** · [简体中文](README_CN.md)
 
-| Thread | Undergraduate foundation | Direction in computational chemistry |
-|:--|:--|:--|
-| **Mamba Structural Modeling** | State-space modeling, frequency/wavelet enhancement, long-range visual structure | Linear-complexity modeling of long-range interactions in atomistic systems |
-| **Neuro-Symbolic AI** | Extract-Then-Compile, deterministic constraint solving, reliable LLM planning | Verifiable scientific agents with explicit evidence, applicability domains, and unknown boundaries |
+**Incoming direct-entry PhD @ USTC** · Expected Sep 2027<br>School of Artificial Intelligence and Data Science<br>
+**Undergraduate @ Jiangnan University** · 2023–2027<br>School of Artificial Intelligence and Computer Science
 
----
+[Homepage ↗](https://unumbrela.github.io/) &nbsp; · &nbsp; [Google Scholar ↗](https://scholar.google.com/citations?user=AWn-jWwAAAAJ) &nbsp; · &nbsp; [Email ↗](mailto:zihao3351@gmail.com) &nbsp; · &nbsp; [WeChat](https://unumbrela.github.io/#wechat-contact) &nbsp; · &nbsp; [QQ](https://unumbrela.github.io/#qq-contact)
 
-## Publications
+I’m **Zihao Guo (郭子豪)**. My work spans state-space modeling, neuro-symbolic planning, and scientific machine learning. Looking ahead, I’m interested in **LLMs and agents for scientific computing**; my future research focus is still taking shape.
 
-### 1. FWMamba-UNet: Frequency-Wavelet Enhanced Mamba UNet for Medical Image Segmentation
+## Research
 
-**First Author** · ICIC 2026 (**Oral**, CCF-C)
+### State-space models
 
-Reveals that the Mamba state-space structure is intrinsically insensitive to high-frequency image details such as object boundaries, and repairs this limitation with a parallel discrete-wavelet-transform branch. With only about 10% more parameters, the model achieves state-of-the-art results on three medical-image-segmentation benchmarks.
+[**FWMamba-UNet**](https://link.springer.com/chapter/10.1007/978-981-92-3429-5_39)<br>
+Frequency-Wavelet Enhanced Mamba UNet for Medical Image Segmentation<br>
+<sub>**ICIC 2026 · Oral** &nbsp; · &nbsp; First author &nbsp; · &nbsp; [Paper ↗](https://link.springer.com/chapter/10.1007/978-981-92-3429-5_39) &nbsp; · &nbsp; [Code ↗](https://github.com/unumbrela/FWMamba-UNet)</sub>
 
-### 2. Extract-Then-Compile: Reliable Neuro-Symbolic Planning for Large Language Models
+<a href="https://raw.githubusercontent.com/unumbrela/unumbrela/main/assets/img/fwmamba.webp">
+  <img src="assets/img/fwmamba.webp" alt="FWMamba-UNet architecture: frequency-wavelet enhanced state-space segmentation" width="900">
+</a>
 
-**First Author** · ICIC 2026 (**Oral**, CCF-C) · 1 invention patent filed
+<sub><a href="https://raw.githubusercontent.com/unumbrela/unumbrela/main/assets/img/fwmamba.webp">Open full-resolution figure ↗</a></sub>
 
-Introduces an Extract-Then-Compile paradigm: the LLM only extracts user requirements into a structured table, while a deterministic symbolic system performs hard-constraint search. It improves the all-constraint pass rate on ChinaTravel by 31.82 points while using about 90% fewer tokens, enabling a 7B model to outperform larger models.
+### Neuro-symbolic reasoning
 
-### 3. MambaGuard: A CLIP-Mamba Approach for OOD Generated Image Detection
+[**Extract-Then-Compile**](https://link.springer.com/chapter/10.1007/978-981-92-3417-2_46)<br>
+Reliable Neuro-Symbolic Planning for Large Language Models<br>
+<sub>**ICIC 2026 · Oral** &nbsp; · &nbsp; First author &nbsp; · &nbsp; [Paper ↗](https://link.springer.com/chapter/10.1007/978-981-92-3417-2_46) &nbsp; · &nbsp; [Code · coming soon ↗](https://github.com/unumbrela/ETC-SHINE)</sub>
 
-**Co-First Author** · PRCV 2025 (CCF-C)
+<a href="https://raw.githubusercontent.com/unumbrela/unumbrela/main/assets/img/Extract.webp">
+  <img src="assets/img/Extract.webp" alt="Extract-Then-Compile: language extraction and deterministic constraint solving" width="900">
+</a>
 
-Combines a CLIP-Mamba backbone with FFT-based spectral decoupling to detect images produced by generators unseen during training. Evaluated across 15 generative models, with particularly strong results on difficult cases including DALL·E 2 and Midjourney.
+<sub><a href="https://raw.githubusercontent.com/unumbrela/unumbrela/main/assets/img/Extract.webp">Open full-resolution figure ↗</a></sub>
 
-### 4. RA-Det: Towards Universal Detection of AI-Generated Images via Robustness Asymmetry
+### AIGC detection
 
-**Fifth Author** · ICML 2026 (CCF-A)
+[**RA-Det**](https://proceedings.mlr.press/v306/wang26ad.html)<br>
+Towards Universal Detection of AI-Generated Images via Robustness Asymmetry<br>
+<sub>**ICML 2026** &nbsp; · &nbsp; Fifth author &nbsp; · &nbsp; [Paper ↗](https://proceedings.mlr.press/v306/wang26ad.html) &nbsp; · &nbsp; [arXiv ↗](https://arxiv.org/abs/2603.01544)</sub>
 
-Identifies robustness asymmetry as a generator-agnostic signal: small perturbations preserve the semantics of real images but cause larger drift in generated images. The resulting detector improves average performance by 7.81% across 14 generative models without relying on generator fingerprints.
+<a href="https://raw.githubusercontent.com/unumbrela/unumbrela/main/assets/img/ICML-framework-1.webp">
+  <img src="assets/img/ICML-framework-1.webp" alt="RA-Det framework: robustness probing and asymmetry features" width="900">
+</a>
 
----
+<sub><a href="https://raw.githubusercontent.com/unumbrela/unumbrela/main/assets/img/ICML-framework-1.webp">Open full-resolution figure ↗</a></sub>
 
-## Research Project
+[**MambaGuard**](https://link.springer.com/chapter/10.1007/978-981-95-5699-1_25)<br>
+A CLIP-Mamba Approach for OOD Generated Image Detection<br>
+<sub>**PRCV 2025** &nbsp; · &nbsp; Co-first author &nbsp; · &nbsp; [Paper ↗](https://link.springer.com/chapter/10.1007/978-981-95-5699-1_25) &nbsp; · &nbsp; [Code ↗](https://github.com/orangecc7/MambaGuard)</sub>
 
-### AMP-Forge · iGEM 2025 Gold Medal
+<a href="https://raw.githubusercontent.com/unumbrela/unumbrela/main/assets/img/prcv-framework-1.webp">
+  <img src="assets/img/prcv-framework-1.webp" alt="MambaGuard framework: CLIP-Mamba and spectral feature refinement" width="900">
+</a>
 
-**Dry-Lab Lead · Mar–Nov 2025 · In-person presentation in Paris**
+<sub><a href="https://raw.githubusercontent.com/unumbrela/unumbrela/main/assets/img/prcv-framework-1.webp">Open full-resolution figure ↗</a></sub>
 
-Our team engineered *Saccharomyces cerevisiae* to produce the human antimicrobial peptide LL-37 against antibiotic resistance. I independently built **AMP-Forge**, a de-novo antimicrobial-peptide design platform:
+## Projects
 
-`Protein Language Model → VAE (64-D Latent Space) → Latent Diffusion → Non-Autoregressive Decoder`
+**AMP-Forge** · De novo antimicrobial peptide design<br>
+<sub>**iGEM 2025 · Gold Medal** &nbsp; · &nbsp; Dry-Lab Lead</sub>
 
-- Built a corpus of **25,622 antimicrobial peptides from six databases**.
-- Added an activity predictor with **PCC = 0.90** for closed-loop screening.
-- Generated multiple variants whose antimicrobial activity was **validated in wet-lab experiments to outperform the original sequence**.
+Independently built a design platform connecting protein language models, a VAE, and latent diffusion with activity prediction for closed-loop screening.
 
----
+- **25,622 peptides** curated from **6 databases**; predictor **PCC = 0.90**.
+- Multiple generated variants outperformed the original sequence in wet-lab validation.
 
-## Research Agenda
+[Project details ↗](https://unumbrela.github.io/#projects) &nbsp; · &nbsp; [Code ↗](https://github.com/unumbrela/AMP-Forge)
 
-### Chem-Mamba
+## Methods & tools
 
-For long-range modeling in machine-learning interatomic potentials, I plan to develop **EuclideanMamba**, a linear-complexity framework that unifies charge transfer, electron delocalization, and periodic response in three-dimensional atomic systems as **source–propagation–response** state dynamics, targeting lower energy errors on three classes of nonlocal tasks under matched protocols.
+`State-space models` &nbsp; `Neuro-symbolic planning` &nbsp; `Protein language models` &nbsp; `Latent diffusion` &nbsp; `PyTorch`
 
-### Chem-Agent
-
-To address the silent failure mode in which a scientific agent's program runs but its science is wrong, I plan to develop **Verified Repair Contracts (VRC)**: a cognitive control layer that compiles scientific knowledge into executable contracts with applicability domains, evidence, and explicit unknown boundaries. VRC verifies tool calls, performs safe repairs, and reruns all checks before execution—moving agents from merely running to acting with evidence.
-
-<div align="center">
-  <br />
-  <i>“If you don't believe you will win, then why bother training and grinding.”</i>
-  <br />
-  — Anonymous
-  <br /><br />
-  <a href="https://unumbrela.github.io"><b>Academic Homepage →</b></a>
-</div>
+<sub>Open to research conversations on reliable reasoning, scientific agents, and AI for Science. [Get in touch ↗](mailto:zihao3351@gmail.com)</sub>

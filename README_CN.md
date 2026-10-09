@@ -1,75 +1,79 @@
-<div align="right">
-  <a href="./README.md">🇬🇧 English</a>
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/img/profile-header-dark.svg">
+  <img src="assets/img/profile-header-light.svg" alt="Hi, I’m Zihao — state-space models, neuro-symbolic reasoning & AI for Science." width="900">
+</picture>
 
-## 研究定位
+[English](README.md) · **简体中文**
 
-| 研究主线 | 本科阶段基础 | 计算化学延伸方向 |
-|:--|:--|:--|
-| **Mamba 结构建模** | 状态空间建模、频域/小波增强、长程视觉结构 | 原子体系中长程相互作用的线性复杂度建模 |
-| **神经符号方法** | Extract-Then-Compile、确定性约束求解、可靠 LLM 规划 | 具有证据、适用域与未知边界的可验证科学智能体 |
+**中国科学技术大学 · 已获直博录取** · 预计 2027 年 9 月入学<br>人工智能与数据科学学院<br>
+**江南大学 · 本科在读** · 2023–2027<br>人工智能与计算机学院
 
----
+[个人主页 ↗](https://unumbrela.github.io/?lang=zh) &nbsp; · &nbsp; [Google Scholar ↗](https://scholar.google.com/citations?user=AWn-jWwAAAAJ) &nbsp; · &nbsp; [邮箱 ↗](mailto:zihao3351@gmail.com) &nbsp; · &nbsp; [微信](https://unumbrela.github.io/?lang=zh#wechat-contact) &nbsp; · &nbsp; [QQ](https://unumbrela.github.io/?lang=zh#qq-contact)
 
-## 科研成果（论文）
+我是**郭子豪**。已有工作涵盖状态空间建模、神经符号规划与科学应用中的机器学习。未来拟探索 **LLM 与面向科学计算的 Agent**，具体研究主题仍在明确。
 
-### 1. FWMamba-UNet: Frequency-Wavelet Enhanced Mamba UNet for Medical Image Segmentation
+## 研究成果
 
-**第一作者** · ICIC 2026（**Oral**，CCF-C）
+### 状态空间模型
 
-从理论上揭示 Mamba 状态空间模型“结构上看不见图像高频细节（即物体边界）”这一缺陷，并用并联小波（DWT）分支加以修复；仅增加约 10% 参数，即在三个医学图像分割基准上达到 SOTA。
+[**FWMamba-UNet**](https://link.springer.com/chapter/10.1007/978-981-92-3429-5_39)<br>
+Frequency-Wavelet Enhanced Mamba UNet for Medical Image Segmentation<br>
+<sub>**ICIC 2026 · Oral** &nbsp; · &nbsp; 第一作者 &nbsp; · &nbsp; [论文 ↗](https://link.springer.com/chapter/10.1007/978-981-92-3429-5_39) &nbsp; · &nbsp; [代码 ↗](https://github.com/unumbrela/FWMamba-UNet)</sub>
 
-### 2. Extract-Then-Compile: Reliable Neuro-Symbolic Planning for Large Language Models
+<a href="https://raw.githubusercontent.com/unumbrela/unumbrela/main/assets/img/fwmamba.webp">
+  <img src="assets/img/fwmamba.webp" alt="FWMamba-UNet 频率小波增强状态空间分割框架" width="900">
+</a>
 
-**第一作者** · ICIC 2026（**Oral**，CCF-C）· 已申请发明专利 1 项
+<sub><a href="https://raw.githubusercontent.com/unumbrela/unumbrela/main/assets/img/fwmamba.webp">查看原图 ↗</a></sub>
 
-提出“抽取—编译”范式：大模型只把需求抽取成结构化表格，满足硬约束的搜索交由确定性符号系统完成。在三个规划基准上大幅领先（ChinaTravel 全约束通过率 +31.82 分），且少用约 90% token；7B 小模型借此可超越更大规模的模型。
+### 神经符号推理
 
-### 3. MambaGuard: A CLIP-Mamba Approach for OOD Generated Image Detection
+[**Extract-Then-Compile**](https://link.springer.com/chapter/10.1007/978-981-92-3417-2_46)<br>
+Reliable Neuro-Symbolic Planning for Large Language Models<br>
+<sub>**ICIC 2026 · Oral** &nbsp; · &nbsp; 第一作者 &nbsp; · &nbsp; [论文 ↗](https://link.springer.com/chapter/10.1007/978-981-92-3417-2_46) &nbsp; · &nbsp; [代码 · 待发布 ↗](https://github.com/unumbrela/ETC-SHINE)</sub>
 
-**共同一作** · PRCV 2025（CCF-C）
+<a href="https://raw.githubusercontent.com/unumbrela/unumbrela/main/assets/img/Extract.webp">
+  <img src="assets/img/Extract.webp" alt="Extract-Then-Compile 语言抽取与确定性约束求解框架" width="900">
+</a>
 
-用 CLIP-Mamba 骨干与 FFT 频谱解耦，检测训练时从未见过的新模型所生成的图像。在 15 个生成模型上验证有效，对 DALL·E 2、Midjourney 等难例尤为突出。
+<sub><a href="https://raw.githubusercontent.com/unumbrela/unumbrela/main/assets/img/Extract.webp">查看原图 ↗</a></sub>
 
-### 4. RA-Det: Towards Universal Detection of AI-Generated Images via Robustness Asymmetry
+### 生成图像检测
 
-**第五作者** · ICML 2026（CCF-A）
+[**RA-Det**](https://proceedings.mlr.press/v306/wang26ad.html)<br>
+Towards Universal Detection of AI-Generated Images via Robustness Asymmetry<br>
+<sub>**ICML 2026** &nbsp; · &nbsp; 第五作者 &nbsp; · &nbsp; [论文 ↗](https://proceedings.mlr.press/v306/wang26ad.html) &nbsp; · &nbsp; [arXiv ↗](https://arxiv.org/abs/2603.01544)</sub>
 
-提出“鲁棒性不对称”这一通用信号：真实图像受轻微扰动后语义几乎不变，生成图像则明显漂移；据此实现不依赖生成器指纹的通用检测，在 14 个生成模型上平均提升 7.81%。
+<a href="https://raw.githubusercontent.com/unumbrela/unumbrela/main/assets/img/ICML-framework-1.webp">
+  <img src="assets/img/ICML-framework-1.webp" alt="RA-Det 鲁棒性探测与非对称特征框架" width="900">
+</a>
 
----
+<sub><a href="https://raw.githubusercontent.com/unumbrela/unumbrela/main/assets/img/ICML-framework-1.webp">查看原图 ↗</a></sub>
+
+[**MambaGuard**](https://link.springer.com/chapter/10.1007/978-981-95-5699-1_25)<br>
+A CLIP-Mamba Approach for OOD Generated Image Detection<br>
+<sub>**PRCV 2025** &nbsp; · &nbsp; 共同第一作者 &nbsp; · &nbsp; [论文 ↗](https://link.springer.com/chapter/10.1007/978-981-95-5699-1_25) &nbsp; · &nbsp; [代码 ↗](https://github.com/orangecc7/MambaGuard)</sub>
+
+<a href="https://raw.githubusercontent.com/unumbrela/unumbrela/main/assets/img/prcv-framework-1.webp">
+  <img src="assets/img/prcv-framework-1.webp" alt="MambaGuard CLIP-Mamba 与频谱特征增强框架" width="900">
+</a>
+
+<sub><a href="https://raw.githubusercontent.com/unumbrela/unumbrela/main/assets/img/prcv-framework-1.webp">查看原图 ↗</a></sub>
 
 ## 科研项目
 
-### AMP-Forge · iGEM 2025 国际金奖
+**AMP-Forge** · 抗菌肽从头设计<br>
+<sub>**iGEM 2025 · 国际金奖** &nbsp; · &nbsp; 干实验负责人</sub>
 
-**干实验（计算机组）负责人 · 2025.03–2025.11 · 巴黎线下答辩**
+独立搭建抗菌肽设计平台，将蛋白质语言模型、VAE 与潜在扩散结合，并用活性预测器完成闭环筛选。
 
-团队以酿酒酵母量产人源抗菌肽 LL-37 对抗抗生素耐药。我独立搭建抗菌肽从头设计平台 **AMP-Forge**：
+- 整合 **6 个数据库、25,622 条抗菌肽**；活性预测器 **PCC = 0.90**。
+- 多条生成变体经**湿实验验证，抗菌活性优于原始序列**。
 
-`蛋白质语言模型 → VAE 压至 64 维潜空间 → 潜在扩散 → 非自回归解码`
+[查看项目详情 ↗](https://unumbrela.github.io/?lang=zh#projects) &nbsp; · &nbsp; [代码 ↗](https://github.com/unumbrela/AMP-Forge)
 
-- 构建跨 **6 个数据库、共 25,622 条**的抗菌肽语料。
-- 配套活性预测器（**PCC = 0.90**）完成闭环筛选。
-- 多条生成变体经**湿实验验证活性优于原始序列**。
+## 方法与工具
 
----
+`状态空间模型` &nbsp; `神经符号规划` &nbsp; `蛋白质语言模型` &nbsp; `潜在扩散` &nbsp; `PyTorch`
 
-## 研究规划
-
-### Chem-Mamba
-
-面向机器学习原子间势的长程建模，提出线性复杂度的 **EuclideanMamba**，将三维原子体系中的电荷转移、电子离域与周期响应统一为“**源—传播—响应**”状态动力学，并在同协议对照中于三类非局域任务上进一步降低能量误差。
-
-### Chem-Agent
-
-面向科学智能体“程序能运行、但科学上可能错误”的静默风险，提出 **Verified Repair Contracts（VRC）**认知控制层，将科学知识编译为带适用域、证据与未知边界的可执行契约，在工具调用前完成验证、安全修复与全量重验，使 Agent 从“能运行”走向“有依据地行动”。
-
-<div align="center">
-  <br />
-  <i>“If you don't believe you will win, then why bother training and grinding.”</i>
-  <br />
-  — Anonymous
-  <br /><br />
-  <a href="https://unumbrela.github.io/"><b>Academic Homepage →</b></a>
-</div>
+<sub>欢迎就可靠推理、科学智能体与 AI for Science 交流合作。[联系我 ↗](mailto:zihao3351@gmail.com)</sub>

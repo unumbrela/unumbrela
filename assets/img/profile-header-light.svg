@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180" role="img" aria-labelledby="title desc">
+<title id="title">Hi, I'm Zihao — AI for Science</title><desc id="desc">State-space models, neuro-symbolic reasoning, and scientific machine learning.</desc>
+<rect width="900" height="180" fill="#ffffff"/>
+<g font-family="Trebuchet MS, Arial, sans-serif"><text x="8" y="67" fill="#20242a" font-size="43" font-weight="700">Hi, I'm <tspan fill="#b94a06">Zihao.</tspan></text><text x="10" y="109" fill="#626974" font-size="18">Exploring intelligent systems for scientific discovery.</text><text x="10" y="148" fill="#b94a06" font-size="13">STATE-SPACE MODELS  ·  NEURO-SYMBOLIC REASONING  ·  AI FOR SCIENCE</text></g>
+<g transform="translate(790 77)" fill="none" stroke="#b94a06" stroke-width="2"><circle r="57" fill="#fff3e8" stroke="none"/><path d="M-39 1a39 39 0 0 1 78 0c-9-9-18-9-26 0-8-9-18-9-26 0-8-9-17-9-26 0ZM0-43v7M0 1v39c0 15 20 15 20 0" stroke-linecap="round" stroke-linejoin="round"/></g></svg>

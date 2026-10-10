@@ -1,5 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180" role="img" aria-labelledby="title desc">
-<title id="title">Hi, I'm Zihao — AI for Science</title><desc id="desc">State-space models, neuro-symbolic reasoning, and scientific machine learning.</desc>
-<rect width="900" height="180" fill="#18191c"/>
-<g font-family="Trebuchet MS, Arial, sans-serif"><text x="8" y="67" fill="#eeeeef" font-size="43" font-weight="700">Hi, I'm <tspan fill="#ffac70">Zihao.</tspan></text><text x="10" y="109" fill="#b3b5bd" font-size="18">Exploring intelligent systems for scientific discovery.</text><text x="10" y="148" fill="#ffac70" font-size="13">STATE-SPACE MODELS  ·  NEURO-SYMBOLIC REASONING  ·  AI FOR SCIENCE</text></g>
-<g transform="translate(790 77)" fill="none" stroke="#ffac70" stroke-width="2"><circle r="57" fill="#34271f" stroke="none"/><path d="M-39 1a39 39 0 0 1 78 0c-9-9-18-9-26 0-8-9-18-9-26 0-8-9-17-9-26 0ZM0-43v7M0 1v39c0 15 20 15 20 0" stroke-linecap="round" stroke-linejoin="round"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-labelledby="title desc">
+<title id="title">Hi, I'm Zihao. Visit my personal website.</title>
+<desc id="desc">Exploring intelligent systems for scientific discovery. unumbrela.github.io</desc>
+<rect width="900" height="240" rx="16" fill="#262624"/>
+<text x="36" y="37" fill="#b9b6ab" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.4">CURIOSITY, REASONING &amp; SCIENTIFIC DISCOVERY</text>
+<text x="34" y="107" fill="#eeece2" font-family="Georgia,Times New Roman,serif" font-size="57">Hi, I'm <tspan fill="#e2a184">Zihao.</tspan></text>
+<text x="37" y="147" fill="#b9b6ab" font-family="Georgia,Times New Roman,serif" font-size="21">Exploring intelligent systems for scientific discovery.</text>
+<path d="M36 174H864" stroke="#45443d"/>
+<text x="37" y="210" fill="#e2a184" font-family="Arial,sans-serif" font-size="13">VISIT MY HOMEPAGE  ↗</text>
+<text x="864" y="210" fill="#b9b6ab" font-family="Arial,sans-serif" font-size="13" text-anchor="end">unumbrela.github.io</text>
+<g transform="translate(790 98)" fill="none" stroke="#e2a184" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-38 0a38 38 0 0 1 76 0c-9-8-17-8-25 0-9-8-17-8-26 0-8-8-16-8-25 0ZM0-45v7M0 0v31c0 15 19 15 19 0"/></g>
+</svg>

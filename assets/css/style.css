@@ -1,11 +1,11 @@
 @charset "UTF-8";
-:root{--bg:#ffffff;--surface:#fcfbf9;--ink:#20242a;--muted:#626974;--accent:#b94a06;--accent-soft:#fff3e8;--line:#ece8e3;--header:rgba(255,255,255,.97);color-scheme:light}
+:root{--bg:#faf9f5;--surface:#f0eee6;--ink:#302f2b;--muted:#706e65;--accent:#a34f36;--accent-soft:#f2e5dc;--line:#e3dfd5;--header:rgba(250,249,245,.95);--font-sans:"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;--font-serif:Georgia,"Times New Roman","Noto Serif CJK SC","Songti SC",SimSun,serif;color-scheme:light}
 
-html[data-theme=dark]{--bg:#18191c;--surface:#222327;--ink:#eeeeef;--muted:#b3b5bd;--accent:#ffac70;--accent-soft:#34271f;--line:#363538;--header:rgba(24,25,28,.97);color-scheme:dark}
+html[data-theme=dark]{--bg:#262624;--surface:#30302c;--ink:#eeece2;--muted:#b9b6ab;--accent:#e2a184;--accent-soft:#40332b;--line:#45443d;--header:rgba(38,38,36,.95);color-scheme:dark}
 
 *{box-sizing:border-box}
 html{scroll-behavior:smooth;scroll-padding-top:104px}
-body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.8 "Trebuchet MS",Helvetica,Arial,"Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.85 var(--font-sans);-webkit-font-smoothing:antialiased}
 a{color:var(--accent);text-decoration:none}
 a:hover{text-decoration:underline;text-underline-offset:4px}
 button,a{-webkit-tap-highlight-color:transparent}
@@ -57,7 +57,7 @@ main{min-width:0}
 
 .intro{padding:1px 0 5px}
 .intro>.eyebrow{margin:0 0 15px;color:var(--accent)}
-.intro h1{font-size:36px;font-weight:700;letter-spacing:-.6px;margin-bottom:23px;font-family:"Comic Sans MS","Comic Sans",cursive}
+.intro h1{font-size:36px;font-weight:700;letter-spacing:-.6px;margin-bottom:23px;font-family:var(--font-serif)}
 .intro-lead{font-size:24px;line-height:1.45;letter-spacing:-.65px;color:var(--muted);margin-bottom:23px}
 .admission{display:flex;align-items:center;gap:10px;padding:9px 13px;border-radius:5px;background:var(--accent-soft);width:fit-content;color:var(--accent);font-size:12px;margin-bottom:24px}
 .admission .status-dot{margin:0}
@@ -265,3 +265,60 @@ html:has(dialog[open]){overflow:hidden}
 .contact-fallback{font-size:12px;overflow-wrap:anywhere}
 @media(min-width:761px){.profile{top:90px;max-height:calc(100dvh - 110px);overflow-y:auto;scrollbar-width:thin;padding-right:8px}}
 @media(max-width:760px){.contact-feedback,.contact-fallback{grid-column:1/-1}.profile-education .profile-college{font-size:11px}.profile-education .profile-start{font-size:10px}.profile-links button{gap:9px}}
+
+/* Warm paper, terracotta, and editorial serif typography. */
+.brand{font-family:var(--font-serif);font-size:21px;font-weight:400;letter-spacing:-.5px}
+.header-inner{min-height:74px}
+.header-tools button{border-radius:9px;background:var(--surface)}
+.layout{padding-top:64px;gap:56px}
+.profile h2{font-family:var(--font-serif);font-size:28px;font-weight:400}
+.avatar{border-radius:24px;width:132px;height:154px;padding:5px;background:var(--surface)}
+.profile-admission{border-left-color:var(--accent);padding-left:14px}
+.intro{padding:0 0 26px}
+.intro>.eyebrow{font-size:10px;letter-spacing:2.2px;margin-bottom:22px}
+.intro h1{font-size:clamp(38px,4.6vw,58px);font-weight:400;letter-spacing:-1.8px;line-height:1.18;margin-bottom:28px}
+.greeting-mark{font-size:.64em;vertical-align:middle}
+.intro>p:not(.eyebrow):not(.intro-lead){font-size:16px;line-height:1.95}
+strong{font-weight:600}
+.collaboration-note{border-left:2px solid var(--accent);padding:4px 0 4px 18px;margin-top:25px}
+.section{margin-top:52px}
+.section>h2{font-family:var(--font-serif);font-size:29px;font-weight:400;letter-spacing:-.5px;padding-bottom:18px}
+.section-icon{width:20px;height:20px;stroke-width:1.4}
+.research-group-title{font-size:12px;letter-spacing:1px;color:var(--muted);font-weight:500;margin-top:28px}
+.paper{gap:26px;padding-block:28px}
+.paper h4{font-family:var(--font-serif);font-size:20px;line-height:1.45;font-weight:400}
+.paper h4 a{color:var(--ink)}
+.paper h4 a:hover{color:var(--accent)}
+.paper-image{border-radius:12px}
+.paper-links a{border-bottom:1px solid var(--line);padding-bottom:2px}
+.venue,.badge{border-radius:5px;font-weight:500}
+.news-list{font-size:14px}
+.news-list strong{color:var(--ink)}
+.news-list li{padding-block:16px}
+.project{padding:28px;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
+.project h3{font-family:var(--font-serif);font-size:34px;font-weight:400}
+.metrics{padding:20px 0;background:transparent}
+.metrics strong{font-family:var(--font-serif);font-size:32px;font-weight:400}
+.direction-grid article{border-top-width:1px}
+.direction-grid h3{font-family:var(--font-serif);font-size:22px;font-weight:400;line-height:1.5}
+.education-row h3{font-size:16px;font-weight:500}
+footer{padding-block:28px 38px}
+html[lang=zh-CN] .intro h1{letter-spacing:1px}
+@media(max-width:1050px){.layout{gap:34px}}
+@media(max-width:760px){
+  .header-inner{min-height:95px}.brand{font-size:20px}
+  .layout{padding-top:30px}.profile{margin-bottom:30px}
+  .avatar{width:76px;height:90px;border-radius:17px;padding:3px}
+  .profile h2{font-size:26px}
+  .intro h1{font-size:42px;letter-spacing:-1px}
+  .intro>p:not(.eyebrow):not(.intro-lead){font-size:15px}
+  .section{margin-top:38px}.section>h2{font-size:27px}
+  .project{padding:22px}.paper h4{font-size:20px}
+}
+@media(max-width:480px){
+  .intro h1{font-size:39px}html[lang=zh-CN] .intro h1{font-size:32px}
+  .intro>.eyebrow{font-size:9px;letter-spacing:1.3px}
+  .project{padding:18px}.metrics strong{font-size:27px}
+  .header-inner nav{gap:12px}.header-inner nav a{min-height:44px}
+  .header-tools button{min-height:36px;min-width:36px}
+}

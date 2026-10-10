@@ -1,7 +1,11 @@
+<a href="https://unumbrela.github.io/">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/img/profile-header-dark.svg">
   <img src="assets/img/profile-header-light.svg" alt="Hi, I’m Zihao — state-space models, neuro-symbolic reasoning & AI for Science." width="900">
 </picture>
+</a>
+
+**[Visit my personal website ↗](https://unumbrela.github.io/)** · Research, publications & projects
 
 **English** · [简体中文](README_CN.md)
 

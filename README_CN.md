@@ -9,10 +9,11 @@
 
 [English](README.md) · **简体中文**
 
-**中国科学技术大学 · 已获直博录取** · 预计 2027 年 9 月入学<br>人工智能与数据科学学院<br>
-**江南大学 · 本科在读** · 2023–2027<br>人工智能与计算机学院
+**本科**<br>江南大学<br><sub>2023–2027 · 在读</sub>
 
-[个人主页 ↗](https://unumbrela.github.io/?lang=zh) &nbsp; · &nbsp; [Google Scholar ↗](https://scholar.google.com/citations?user=AWn-jWwAAAAJ) &nbsp; · &nbsp; [邮箱 ↗](mailto:zihao3351@gmail.com) &nbsp; · &nbsp; [微信](https://unumbrela.github.io/?lang=zh#wechat-contact) &nbsp; · &nbsp; [QQ](https://unumbrela.github.io/?lang=zh#qq-contact)
+**博士 · AIDS**<br>中国科学技术大学<br><sub>已录取 · 2027.09 入学</sub>
+
+[Google Scholar ↗](https://scholar.google.com/citations?user=AWn-jWwAAAAJ) &nbsp; · &nbsp; [邮箱 ↗](mailto:zihao3351@gmail.com) &nbsp; · &nbsp; [微信](https://unumbrela.github.io/?lang=zh#wechat-contact) &nbsp; · &nbsp; [QQ](https://unumbrela.github.io/?lang=zh#qq-contact)
 
 我是**郭子豪**。已有工作涵盖状态空间建模、神经符号规划与科学应用中的机器学习。未来拟探索 **LLM 与面向科学计算的 Agent**。
 
@@ -79,5 +80,3 @@ A CLIP-Mamba Approach for OOD Generated Image Detection<br>
 ## 方法与工具
 
 `状态空间模型` &nbsp; `神经符号规划` &nbsp; `蛋白质语言模型` &nbsp; `潜在扩散` &nbsp; `PyTorch`
-
-<sub>欢迎就可靠推理、科学智能体与 AI for Science 交流合作。[联系我 ↗](mailto:zihao3351@gmail.com)</sub>

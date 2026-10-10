@@ -9,10 +9,11 @@
 
 **English** · [简体中文](README_CN.md)
 
-**Incoming direct-entry PhD @ USTC** · Expected Sep 2027<br>School of Artificial Intelligence and Data Science<br>
-**Undergraduate @ Jiangnan University** · 2023–2027<br>School of Artificial Intelligence and Computer Science
+**Undergraduate**<br>Jiangnan University<br><sub>2023–2027 · In progress</sub>
 
-[Homepage ↗](https://unumbrela.github.io/) &nbsp; · &nbsp; [Google Scholar ↗](https://scholar.google.com/citations?user=AWn-jWwAAAAJ) &nbsp; · &nbsp; [Email ↗](mailto:zihao3351@gmail.com) &nbsp; · &nbsp; [WeChat](https://unumbrela.github.io/#wechat-contact) &nbsp; · &nbsp; [QQ](https://unumbrela.github.io/#qq-contact)
+**PhD · AIDS**<br>University of Science and Technology of China<br><sub>Incoming · Sep 2027</sub>
+
+[Google Scholar ↗](https://scholar.google.com/citations?user=AWn-jWwAAAAJ) &nbsp; · &nbsp; [Email ↗](mailto:zihao3351@gmail.com) &nbsp; · &nbsp; [WeChat](https://unumbrela.github.io/#wechat-contact) &nbsp; · &nbsp; [QQ](https://unumbrela.github.io/#qq-contact)
 
 I’m **Zihao Guo (郭子豪)**. My work spans state-space modeling, neuro-symbolic planning, and scientific machine learning. Looking ahead, I’m interested in **LLMs and agents for scientific computing**.
 
@@ -79,5 +80,3 @@ Independently built a design platform connecting protein language models, a VAE,
 ## Methods & tools
 
 `State-space models` &nbsp; `Neuro-symbolic planning` &nbsp; `Protein language models` &nbsp; `Latent diffusion` &nbsp; `PyTorch`
-
-<sub>Open to research conversations on reliable reasoning, scientific agents, and AI for Science. [Get in touch ↗](mailto:zihao3351@gmail.com)</sub>

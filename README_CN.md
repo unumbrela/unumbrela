@@ -14,7 +14,7 @@
 
 [个人主页 ↗](https://unumbrela.github.io/?lang=zh) &nbsp; · &nbsp; [Google Scholar ↗](https://scholar.google.com/citations?user=AWn-jWwAAAAJ) &nbsp; · &nbsp; [邮箱 ↗](mailto:zihao3351@gmail.com) &nbsp; · &nbsp; [微信](https://unumbrela.github.io/?lang=zh#wechat-contact) &nbsp; · &nbsp; [QQ](https://unumbrela.github.io/?lang=zh#qq-contact)
 
-我是**郭子豪**。已有工作涵盖状态空间建模、神经符号规划与科学应用中的机器学习。未来拟探索 **LLM 与面向科学计算的 Agent**，具体研究主题仍在明确。
+我是**郭子豪**。已有工作涵盖状态空间建模、神经符号规划与科学应用中的机器学习。未来拟探索 **LLM 与面向科学计算的 Agent**。
 
 ## 研究成果
 

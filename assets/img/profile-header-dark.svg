@@ -2,7 +2,6 @@
 <title id="title">Hi, I'm Zihao. Visit my personal website.</title>
 <desc id="desc">Exploring intelligent systems for scientific discovery. unumbrela.github.io</desc>
 <rect width="900" height="240" rx="16" fill="#262624"/>
-<text x="36" y="37" fill="#b9b6ab" font-family="Arial,sans-serif" font-size="10" letter-spacing="2.4">CURIOSITY, REASONING &amp; SCIENTIFIC DISCOVERY</text>
 <text x="34" y="107" fill="#eeece2" font-family="Georgia,Times New Roman,serif" font-size="57">Hi, I'm <tspan fill="#e2a184">Zihao.</tspan></text>
 <text x="37" y="147" fill="#b9b6ab" font-family="Georgia,Times New Roman,serif" font-size="21">Exploring intelligent systems for scientific discovery.</text>
 <path d="M36 174H864" stroke="#45443d"/>

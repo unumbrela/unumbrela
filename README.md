@@ -14,7 +14,7 @@
 
 [Homepage ↗](https://unumbrela.github.io/) &nbsp; · &nbsp; [Google Scholar ↗](https://scholar.google.com/citations?user=AWn-jWwAAAAJ) &nbsp; · &nbsp; [Email ↗](mailto:zihao3351@gmail.com) &nbsp; · &nbsp; [WeChat](https://unumbrela.github.io/#wechat-contact) &nbsp; · &nbsp; [QQ](https://unumbrela.github.io/#qq-contact)
 
-I’m **Zihao Guo (郭子豪)**. My work spans state-space modeling, neuro-symbolic planning, and scientific machine learning. Looking ahead, I’m interested in **LLMs and agents for scientific computing**; my future research focus is still taking shape.
+I’m **Zihao Guo (郭子豪)**. My work spans state-space modeling, neuro-symbolic planning, and scientific machine learning. Looking ahead, I’m interested in **LLMs and agents for scientific computing**.
 
 ## Research
 

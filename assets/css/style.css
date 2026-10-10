@@ -259,7 +259,7 @@ html:has(dialog[open]){overflow:hidden}
 .profile-education .profile-start{font-size:11px;margin-top:7px;color:var(--accent)}
 .profile-links button{display:flex;align-items:center;gap:9px;min-height:30px;width:fit-content;padding:3px 0;border:0;background:transparent;color:var(--muted);font:inherit;cursor:pointer;text-align:left;scroll-margin-top:115px}
 .profile-links button:hover{color:var(--accent)}
-.profile-links button span{text-decoration:underline;text-underline-offset:3px}
+.profile-links button span{text-decoration:none}
 .contact-feedback{font-size:12px;color:var(--accent);line-height:1.6;overflow-wrap:anywhere;user-select:text;margin:10px 0 0}
 .contact-feedback:empty{display:none}
 .contact-fallback{font-size:12px;overflow-wrap:anywhere}
@@ -322,3 +322,9 @@ html[lang=zh-CN] .intro h1{letter-spacing:1px}
   .header-inner nav{gap:12px}.header-inner nav a{min-height:44px}
   .header-tools button{min-height:36px;min-width:36px}
 }
+
+/* Consistent degree, university, and status hierarchy for both entries. */
+.profile-education .education-item + .education-item{margin-top:18px}
+.profile-education .education-degree{font-size:12px;font-weight:600;color:var(--accent)}
+.profile-education .education-school{font-size:13px;color:var(--ink);margin-top:4px;line-height:1.6}
+.profile-education .education-status{font-size:11px;color:var(--muted);margin-top:5px}
